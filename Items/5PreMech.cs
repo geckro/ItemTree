@@ -31,4 +31,23 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+    public class Shadowflame : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.GoblinSummonerBanner)
+                .AddIngredient(ItemID.ShadowFlameHexDoll)
+                .AddIngredient(ItemID.ShadowFlameBow)
+                .AddIngredient(ItemID.ShadowFlameKnife)
+                .AddTile(TileID.MythrilAnvil)
+                .Register();
+        }
+    }
 }
