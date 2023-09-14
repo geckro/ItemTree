@@ -1,0 +1,30 @@
+Mods: {
+	ItemTree: {
+		Items: {
+			Enchanted: {
+				Tooltip: ""
+				DisplayName: Enchanted Artifact
+			}
+
+			Dynamite: {
+				Tooltip: ""
+				DisplayName: Dynamite Artifact
+			}
+
+			Bomb: {
+				Tooltip: ""
+				DisplayName: Bomb Artifact
+			}
+
+			Shadowflame: {
+				Tooltip: ""
+				DisplayName: Shadowflame
+			}
+
+			Goblin: {
+				Tooltip: ""
+				DisplayName: Goblin
+			}
+		}
+	}
+}
