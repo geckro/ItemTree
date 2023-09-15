@@ -156,6 +156,43 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+    public class LihzahrdHouse : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.LihzahrdChest)
+                .AddIngredient(ItemID.LihzahrdChair)
+                .AddIngredient(ItemID.LihzahrdTable)
+                .AddIngredient(ItemID.LihzahrdWorkBench)
+                .AddIngredient(ItemID.LihzahrdPlatform)
+                .AddIngredient(ItemID.LihzahrdPiano)
+                .AddIngredient(ItemID.LihzahrdBed)
+                .AddIngredient(ItemID.LihzahrdDresser)
+                .AddIngredient(ItemID.LihzahrdDoor)
+                .AddIngredient(ItemID.LihzahrdBookcase)
+                .AddIngredient(ItemID.LihzahrdLantern)
+                .AddIngredient(ItemID.LihzahrdChandelier)
+                .AddIngredient(ItemID.LihzahrdBathtub)
+                .AddIngredient(ItemID.LihzahrdLamp)
+                .AddIngredient(ItemID.LihzahrdCandelabra)
+                .AddIngredient(ItemID.LihzahrdSofa)
+                .AddIngredient(ItemID.LihzahrdClock)
+                .AddIngredient(ItemID.LihzahrdCandle)
+                .AddIngredient(ItemID.LihzahrdBrick)
+                .AddIngredient(ItemID.LihzahrdBrickWall)
+                .AddIngredient(ItemID.ToiletLihzhard)
+                .AddIngredient(ItemID.LihzahrdSink)
+                .AddTile(TileID.LihzahrdFurnace)
+                .Register();
+        }
+    }
     public class Plantera : ModItem
     {
         public override void SetDefaults()
@@ -263,6 +300,79 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.NecromancerBanner)
                 .AddIngredient(ItemID.TacticalSkeletonBanner)
                 .AddTile(TileID.MythrilAnvil)
+                .Register();
+        }
+    }
+    public class SpookyHouse : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.SpookyWoodWall)
+                .AddIngredient(ItemID.SpookyChest)
+                .AddIngredient(ItemID.SpookyChair)
+                .AddIngredient(ItemID.SpookyTable)
+                .AddIngredient(ItemID.SpookyWorkBench)
+                .AddIngredient(ItemID.SpookyPlatform)
+                .AddIngredient(ItemID.SpookyPiano)
+                .AddIngredient(ItemID.SpookyBed)
+                .AddIngredient(ItemID.SpookyDresser)
+                .AddIngredient(ItemID.SpookyDoor)
+                .AddIngredient(ItemID.SpookyBookcase)
+                .AddIngredient(ItemID.SpookyLantern)
+                .AddIngredient(ItemID.SpookyChandelier)
+                .AddIngredient(ItemID.SpookyBathtub)
+                .AddIngredient(ItemID.SpookyLamp)
+                .AddIngredient(ItemID.SpookyCandelabra)
+                .AddIngredient(ItemID.SpookySofa)
+                .AddIngredient(ItemID.SpookyCandle)
+                .AddIngredient(ItemID.SpookyClock)
+                .AddIngredient(ItemID.ToiletSpooky)
+                .AddIngredient(ItemID.SpookySink)
+                .AddTile(TileID.WorkBenches)
+                .Register();
+        }
+    }
+    public class SteampunkHouse : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.Cog)
+                .AddIngredient(ItemID.CogWall)
+                .AddIngredient(ItemID.SteampunkChest)
+                .AddIngredient(ItemID.SteampunkChair)
+                .AddIngredient(ItemID.SteampunkTable)
+                .AddIngredient(ItemID.SteampunkWorkBench)
+                .AddIngredient(ItemID.SteampunkPlatform)
+                .AddIngredient(ItemID.SteampunkPiano)
+                .AddIngredient(ItemID.SteampunkBed)
+                .AddIngredient(ItemID.SteampunkDresser)
+                .AddIngredient(ItemID.SteampunkDoor)
+                .AddIngredient(ItemID.SteampunkBookcase)
+                .AddIngredient(ItemID.SteampunkLantern)
+                .AddIngredient(ItemID.SteampunkChandelier)
+                .AddIngredient(ItemID.SteampunkBathtub)
+                .AddIngredient(ItemID.SteampunkLamp)
+                .AddIngredient(ItemID.SteampunkCandle)
+                .AddIngredient(ItemID.SteampunkCandelabra)
+                .AddIngredient(ItemID.SteampunkSofa)
+                .AddIngredient(ItemID.SteampunkClock)
+                .AddIngredient(ItemID.ToiletSteampunk)
+                .AddIngredient(ItemID.SteampunkSink)
+                .AddTile(TileID.SteampunkBoiler)
                 .Register();
         }
     }

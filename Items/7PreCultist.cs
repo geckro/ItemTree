@@ -134,6 +134,43 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+    public class MartianHouse : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.MartianConduitPlating)
+                .AddIngredient(ItemID.MartianConduitWall)
+                .AddIngredient(ItemID.MartianChest)
+                .AddIngredient(ItemID.MartianHoverChair)
+                .AddIngredient(ItemID.MartianTable)
+                .AddIngredient(ItemID.MartianWorkBench)
+                .AddIngredient(ItemID.MartianPlatform)
+                .AddIngredient(ItemID.MartianPiano)
+                .AddIngredient(ItemID.MartianBed)
+                .AddIngredient(ItemID.MartianDresser)
+                .AddIngredient(ItemID.MartianDoor)
+                .AddIngredient(ItemID.MartianHolobookcase)
+                .AddIngredient(ItemID.MartianLantern)
+                .AddIngredient(ItemID.MartianChandelier)
+                .AddIngredient(ItemID.MartianBathtub)
+                .AddIngredient(ItemID.MartianLamppost)
+                .AddIngredient(ItemID.MartianHoverCandle)
+                .AddIngredient(ItemID.MartianTableLamp)
+                .AddIngredient(ItemID.MartianSofa)
+                .AddIngredient(ItemID.MartianAstroClock)
+                .AddIngredient(ItemID.ToiletMartian)
+                .AddIngredient(ItemID.MartianSink)
+                .AddTile(TileID.WorkBenches)
+                .Register();
+        }
+    }
     public class PreCultist : ModItem
     {
         public override void SetDefaults()

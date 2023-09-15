@@ -215,6 +215,281 @@ Mods: {
 				DisplayName: Spectre
 				Tooltip: ""
 			}
+
+			Alphabet: {
+				DisplayName: Alphabet
+				Tooltip: ""
+			}
+
+			AshWood: {
+				DisplayName: Ash Wood
+				Tooltip: ""
+			}
+
+			AshWoodHouse: {
+				DisplayName: Ash Wood House
+				Tooltip: ""
+			}
+
+			BalloonHouse: {
+				DisplayName: Balloon House
+				Tooltip: ""
+			}
+
+			BambooHouse: {
+				DisplayName: Bamboo House
+				Tooltip: ""
+			}
+
+			BlueDungeonHouse: {
+				DisplayName: Blue Dungeon House
+				Tooltip: ""
+			}
+
+			BoneHouse: {
+				DisplayName: Bone House
+				Tooltip: ""
+			}
+
+			Boreal: {
+				DisplayName: Boreal
+				Tooltip: ""
+			}
+
+			BorealHouse: {
+				DisplayName: Boreal House
+				Tooltip: ""
+			}
+
+			CactusHouse: {
+				DisplayName: Cactus House
+				Tooltip: ""
+			}
+
+			CrystalHouse: {
+				DisplayName: Crystal House
+				Tooltip: ""
+			}
+
+			DynastyWoodHouse: {
+				DisplayName: Dynasty Wood House
+				Tooltip: ""
+			}
+
+			Ebonwood: {
+				DisplayName: Ebonwood
+				Tooltip: ""
+			}
+
+			EbonwoodHouse: {
+				DisplayName: Ebonwood House
+				Tooltip: ""
+			}
+
+			FleshHouse: {
+				DisplayName: Flesh House
+				Tooltip: ""
+			}
+
+			FrozenHouse: {
+				DisplayName: Frozen House
+				Tooltip: ""
+			}
+
+			GlassHouse: {
+				DisplayName: Glass House
+				Tooltip: ""
+			}
+
+			GlowingMushroomHouse: {
+				DisplayName: Glowing Mushroom House
+				Tooltip: ""
+			}
+
+			GoldenHouse: {
+				DisplayName: Golden House
+				Tooltip: ""
+			}
+
+			GothicHouse: {
+				DisplayName: Gothic House
+				Tooltip: ""
+			}
+
+			GraniteHouse: {
+				DisplayName: Granite House
+				Tooltip: ""
+			}
+
+			GreenDungeonHouse: {
+				DisplayName: Green Dungeon House
+				Tooltip: ""
+			}
+
+			Honey: {
+				DisplayName: Honey
+				Tooltip: ""
+			}
+
+			HoneyHouse: {
+				DisplayName: Honey House
+				Tooltip: ""
+			}
+
+			LesionHouse: {
+				DisplayName: Lesion House
+				Tooltip: ""
+			}
+
+			LihzahrdHouse: {
+				DisplayName: Lihzahrd House
+				Tooltip: ""
+			}
+
+			LivingWoodHouse: {
+				DisplayName: Living Wood House
+				Tooltip: ""
+			}
+
+			Mahogany: {
+				DisplayName: Mahogany
+				Tooltip: ""
+			}
+
+			MahoganyHouse: {
+				DisplayName: Mahogany House
+				Tooltip: ""
+			}
+
+			MarbleHouse: {
+				DisplayName: Marble House
+				Tooltip: ""
+			}
+
+			MartianHouse: {
+				DisplayName: Martian House
+				Tooltip: ""
+			}
+
+			MeteorHouse: {
+				DisplayName: Meteor House
+				Tooltip: ""
+			}
+
+			MusicBox: {
+				DisplayName: Music Box
+				Tooltip: ""
+			}
+
+			NebulaHouse: {
+				DisplayName: Nebula House
+				Tooltip: ""
+			}
+
+			ObsidianHouse: {
+				DisplayName: Obsidian House
+				Tooltip: ""
+			}
+
+			PalmWood: {
+				DisplayName: Palm Wood
+				Tooltip: ""
+			}
+
+			PalmWoodHouse: {
+				DisplayName: Palm Wood House
+				Tooltip: ""
+			}
+
+			Pearlwood: {
+				DisplayName: Pearlwood
+				Tooltip: ""
+			}
+
+			PearlwoodHouse: {
+				DisplayName: Pearlwood House
+				Tooltip: ""
+			}
+
+			PineTreeHouse: {
+				DisplayName: Pine Tree House
+				Tooltip: ""
+			}
+
+			PinkDungeonHouse: {
+				DisplayName: Pink Dungeon House
+				Tooltip: ""
+			}
+
+			PumpkinHouse: {
+				DisplayName: Pumpkin House
+				Tooltip: ""
+			}
+
+			ReefHouse: {
+				DisplayName: Reef House
+				Tooltip: ""
+			}
+
+			SandstoneHouse: {
+				DisplayName: Sandstone House
+				Tooltip: ""
+			}
+
+			Shadewood: {
+				DisplayName: Shadewood
+				Tooltip: ""
+			}
+
+			ShadewoodHouse: {
+				DisplayName: Shadewood House
+				Tooltip: ""
+			}
+
+			SkywareHouse: {
+				DisplayName: Skyware House
+				Tooltip: ""
+			}
+
+			SlimeHouse: {
+				DisplayName: Slime House
+				Tooltip: ""
+			}
+
+			SolarHouse: {
+				DisplayName: Solar House
+				Tooltip: ""
+			}
+
+			SpiderHouse: {
+				DisplayName: Spider House
+				Tooltip: ""
+			}
+
+			SpookyHouse: {
+				DisplayName: Spooky House
+				Tooltip: ""
+			}
+
+			StardustHouse: {
+				DisplayName: Stardust House
+				Tooltip: ""
+			}
+
+			SteampunkHouse: {
+				DisplayName: Steampunk House
+				Tooltip: ""
+			}
+
+			VortexHouse: {
+				DisplayName: Vortex House
+				Tooltip: ""
+			}
+
+			WoodHouse: {
+				DisplayName: Wood House
+				Tooltip: ""
+			}
 		}
 	}
 }

@@ -72,6 +72,44 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+    public class ObsidianHouse : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.ObsidianBathtub)
+                .AddIngredient(ItemID.ObsidianBed)
+                .AddIngredient(ItemID.ObsidianBookcase)
+                .AddIngredient(ItemID.ObsidianBrick)
+                .AddIngredient(ItemID.ObsidianBrickWall)
+                .AddIngredient(ItemID.ObsidianCandelabra)
+                .AddIngredient(ItemID.ObsidianCandle)
+                .AddIngredient(ItemID.ObsidianChair)
+                .AddIngredient(ItemID.ObsidianChandelier)
+                .AddIngredient(ItemID.ObsidianChest)
+                .AddIngredient(ItemID.ObsidianClock)
+                .AddIngredient(ItemID.ObsidianDoor)
+                .AddIngredient(ItemID.ObsidianDresser)
+                .AddIngredient(ItemID.ObsidianLamp)
+                .AddIngredient(ItemID.ObsidianLantern)
+                .AddIngredient(ItemID.ObsidianPiano)
+                .AddIngredient(ItemID.ObsidianPlatform)
+                .AddIngredient(ItemID.ObsidianSink)
+                .AddIngredient(ItemID.ObsidianSofa)
+                .AddIngredient(ItemID.ObsidianTable)
+                .AddIngredient(ItemID.ObsidianVase)
+                .AddIngredient(ItemID.ObsidianWorkBench)
+                .AddIngredient(ItemID.ToiletObsidian)
+                .AddTile(TileID.Hellforge)
+                .Register();
+        }
+    }
     public class PreSkeletron : ModItem
     {
         public override void SetDefaults()

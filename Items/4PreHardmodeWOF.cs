@@ -3,6 +3,171 @@ using Terraria.ModLoader;
 
 namespace ItemTree.Items
 {
+    public class BlueDungeonHouse : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.BlueBrick)
+                .AddIngredient(ItemID.BlueBrickWall)
+                .AddIngredient(ItemID.BlueDungeonChest)
+                .AddIngredient(ItemID.BlueDungeonChair)
+                .AddIngredient(ItemID.BlueDungeonTable)
+                .AddIngredient(ItemID.BlueDungeonWorkBench)
+                .AddIngredient(ItemID.BlueBrickPlatform)
+                .AddIngredient(ItemID.BlueDungeonPiano)
+                .AddIngredient(ItemID.BlueDungeonBed)
+                .AddIngredient(ItemID.BlueDungeonDresser)
+                .AddIngredient(ItemID.BlueDungeonDoor)
+                .AddIngredient(ItemID.BlueDungeonBookcase)
+                .AddIngredient(ItemID.BlueDungeonChandelier)
+                .AddIngredient(ItemID.BlueDungeonBathtub)
+                .AddIngredient(ItemID.BlueDungeonLamp)
+                .AddIngredient(ItemID.BlueDungeonCandelabra)
+                .AddIngredient(ItemID.BlueDungeonCandle)
+                .AddIngredient(ItemID.BlueDungeonVase)
+                .AddIngredient(ItemID.BlueDungeonSofa)
+                .AddIngredient(ItemID.DungeonClockBlue)
+                .AddIngredient(ItemID.ToiletDungeonBlue)
+                .AddIngredient(ItemID.BlueDungeonSink)
+                .AddTile(TileID.WorkBenches)
+                .Register();
+        }
+    }
+    public class BoneHouse : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.BoneBlockWall)
+                .AddIngredient(ItemID.BoneChest)
+                .AddIngredient(ItemID.BoneChair)
+                .AddIngredient(ItemID.BoneTable)
+                .AddIngredient(ItemID.BoneWorkBench)
+                .AddIngredient(ItemID.BonePlatform)
+                .AddIngredient(ItemID.BonePiano)
+                .AddIngredient(ItemID.BoneBed)
+                .AddIngredient(ItemID.BoneDresser)
+                .AddIngredient(ItemID.BoneDoor)
+                .AddIngredient(ItemID.BoneBookcase)
+                .AddIngredient(ItemID.BoneLantern)
+                .AddIngredient(ItemID.BoneChandelier)
+                .AddIngredient(ItemID.BoneBathtub)
+                .AddIngredient(ItemID.BoneLamp)
+                .AddIngredient(ItemID.BoneCandelabra)
+                .AddIngredient(ItemID.BoneSofa)
+                .AddIngredient(ItemID.BoneClock)
+                .AddIngredient(ItemID.ToiletBone)
+                .AddIngredient(ItemID.BoneSink)
+                .AddTile(TileID.BoneWelder)
+                .Register();
+        }
+    }
+    public class GothicHouse : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.TerrarianGothic)
+                .AddIngredient(ItemID.GothicChair)
+                .AddIngredient(ItemID.GothicTable)
+                .AddIngredient(ItemID.GothicBookcase)
+                .AddTile(TileID.WorkBenches)
+                .Register();
+        }
+    }
+    public class GreenDungeonHouse : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.GreenBrick)
+                .AddIngredient(ItemID.GreenBrickWall)
+                .AddIngredient(ItemID.GreenDungeonChest)
+                .AddIngredient(ItemID.GreenDungeonChair)
+                .AddIngredient(ItemID.GreenDungeonTable)
+                .AddIngredient(ItemID.GreenDungeonWorkBench)
+                .AddIngredient(ItemID.GreenBrickPlatform)
+                .AddIngredient(ItemID.GreenDungeonPiano)
+                .AddIngredient(ItemID.GreenDungeonBed)
+                .AddIngredient(ItemID.GreenDungeonDresser)
+                .AddIngredient(ItemID.GreenDungeonDoor)
+                .AddIngredient(ItemID.GreenDungeonBookcase)
+                .AddIngredient(ItemID.GreenDungeonChandelier)
+                .AddIngredient(ItemID.GreenDungeonCandle)
+                .AddIngredient(ItemID.GreenDungeonVase)
+                .AddIngredient(ItemID.GreenDungeonBathtub)
+                .AddIngredient(ItemID.GreenDungeonLamp)
+                .AddIngredient(ItemID.GreenDungeonCandelabra)
+                .AddIngredient(ItemID.GreenDungeonSofa)
+                .AddIngredient(ItemID.DungeonClockGreen)
+                .AddIngredient(ItemID.ToiletDungeonGreen)
+                .AddIngredient(ItemID.GreenDungeonSink)
+                .AddTile(TileID.WorkBenches)
+                .Register();
+        }
+    }
+    public class PinkDungeonHouse : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.PinkBrick)
+                .AddIngredient(ItemID.PinkBrickWall)
+                .AddIngredient(ItemID.PinkDungeonChest)
+                .AddIngredient(ItemID.PinkDungeonChair)
+                .AddIngredient(ItemID.PinkDungeonTable)
+                .AddIngredient(ItemID.PinkDungeonWorkBench)
+                .AddIngredient(ItemID.PinkBrickPlatform)
+                .AddIngredient(ItemID.PinkDungeonCandle)
+                .AddIngredient(ItemID.PinkDungeonVase)
+                .AddIngredient(ItemID.PinkDungeonPiano)
+                .AddIngredient(ItemID.PinkDungeonBed)
+                .AddIngredient(ItemID.PinkDungeonDresser)
+                .AddIngredient(ItemID.PinkDungeonDoor)
+                .AddIngredient(ItemID.PinkDungeonBookcase)
+                .AddIngredient(ItemID.PinkDungeonChandelier)
+                .AddIngredient(ItemID.PinkDungeonBathtub)
+                .AddIngredient(ItemID.PinkDungeonLamp)
+                .AddIngredient(ItemID.PinkDungeonCandelabra)
+                .AddIngredient(ItemID.PinkDungeonSofa)
+                .AddIngredient(ItemID.DungeonClockPink)
+                .AddIngredient(ItemID.ToiletDungeonPink)
+                .AddIngredient(ItemID.PinkDungeonSink)
+                .AddTile(TileID.WorkBenches)
+                .Register();
+        }
+    }
     public class Skeletron : ModItem
     {
         public override void SetDefaults()
