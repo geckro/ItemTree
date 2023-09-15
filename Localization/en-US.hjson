@@ -25,6 +25,196 @@ Mods: {
 				Tooltip: ""
 				DisplayName: Goblin
 			}
+
+			DungeonWater: {
+				DisplayName: Dungeon Water
+				Tooltip: ""
+			}
+
+			Empress: {
+				DisplayName: Empress
+				Tooltip: ""
+			}
+
+			Plantera: {
+				DisplayName: Plantera
+				Tooltip: ""
+			}
+
+			Skeletron: {
+				DisplayName: Skeletron
+				Tooltip: ""
+			}
+
+			Blue: {
+				DisplayName: Blue
+				Tooltip: ""
+			}
+
+			Green: {
+				DisplayName: Green
+				Tooltip: ""
+			}
+
+			Hallowed: {
+				DisplayName: Hallowed
+				Tooltip: ""
+			}
+
+			HallowedAncient: {
+				DisplayName: Hallowed Ancient
+				Tooltip: ""
+			}
+
+			Red: {
+				DisplayName: Red
+				Tooltip: ""
+			}
+
+			Sand: {
+				DisplayName: Sand
+				Tooltip: ""
+			}
+
+			Void: {
+				DisplayName: Void
+				Tooltip: ""
+			}
+
+			Yellow: {
+				DisplayName: Yellow
+				Tooltip: ""
+			}
+
+			Zombie: {
+				DisplayName: Zombie
+				Tooltip: ""
+			}
+
+			Cloud: {
+				DisplayName: Cloud
+				Tooltip: ""
+			}
+
+			Eye2: {
+				DisplayName: Eye2
+				Tooltip: ""
+			}
+
+			Frost: {
+				DisplayName: Frost
+				Tooltip: ""
+			}
+
+			Fungus: {
+				DisplayName: Fungus
+				Tooltip: ""
+			}
+
+			Glowing: {
+				DisplayName: Glowing
+				Tooltip: ""
+			}
+
+			Golf: {
+				DisplayName: Golf
+				Tooltip: ""
+			}
+
+			Grass: {
+				DisplayName: Grass
+				Tooltip: ""
+			}
+
+			Gunslinger: {
+				DisplayName: Gunslinger
+				Tooltip: ""
+			}
+
+			Icey: {
+				DisplayName: Icey
+				Tooltip: ""
+			}
+
+			Lihzahrd: {
+				DisplayName: Lihzahrd
+				Tooltip: ""
+			}
+
+			Mana: {
+				DisplayName: Mana
+				Tooltip: ""
+			}
+
+			Metal: {
+				DisplayName: Metal
+				Tooltip: ""
+			}
+
+			Mining: {
+				DisplayName: Mining
+				Tooltip: ""
+			}
+
+			Pig: {
+				DisplayName: Pig
+				Tooltip: ""
+			}
+
+			PostML: {
+				DisplayName: Post M L
+				Tooltip: ""
+			}
+
+			PreCorruptCrimBossRelics: {
+				DisplayName: Pre Corrupt Crim Boss Relics
+				Tooltip: ""
+			}
+
+			PreCultist: {
+				DisplayName: Pre Cultist
+				Tooltip: ""
+			}
+
+			PreGolem: {
+				DisplayName: Pre Golem
+				Tooltip: ""
+			}
+
+			PreHardmodeWOF: {
+				DisplayName: Pre Hardmode W O F
+				Tooltip: ""
+			}
+
+			PreMech: {
+				DisplayName: Pre Mech
+				Tooltip: ""
+			}
+
+			PreSkeletron: {
+				DisplayName: Pre Skeletron
+				Tooltip: ""
+			}
+
+			Recall: {
+				DisplayName: Recall
+				Tooltip: ""
+			}
+
+			Skeleton: {
+				DisplayName: Skeleton
+				Tooltip: ""
+			}
+
+			Slimy: {
+				DisplayName: Slimy
+				Tooltip: ""
+			}
+
+			Spectre: {
+				DisplayName: Spectre
+				Tooltip: ""
+			}
 		}
 	}
 }

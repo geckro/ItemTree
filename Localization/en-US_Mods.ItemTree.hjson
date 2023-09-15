@@ -16,4 +16,304 @@ Items: {
 
 	Bomb: {
 	}
+
+	Amber: {
+		DisplayName: Amber
+		Tooltip: ""
+	}
+
+	Amethyst: {
+		DisplayName: Amethyst
+		Tooltip: ""
+	}
+
+	Antlion: {
+		DisplayName: Antlion
+		Tooltip: ""
+	}
+
+	Beetle: {
+		DisplayName: Beetle
+		Tooltip: ""
+	}
+
+	Cactus: {
+		DisplayName: Cactus
+		Tooltip: ""
+	}
+
+	Copper: {
+		DisplayName: Copper
+		Tooltip: ""
+	}
+
+	RainbowAnvil: {
+		DisplayName: Rainbow Anvil
+		Tooltip: ""
+	}
+
+	Crimtane: {
+		DisplayName: Crimtane
+		Tooltip: ""
+	}
+
+	CrimtanePreSkele: {
+		DisplayName: Crimtane Pre Skele
+		Tooltip: ""
+	}
+
+	Demonite: {
+		DisplayName: Demonite
+		Tooltip: ""
+	}
+
+	DemonitePreSkele: {
+		DisplayName: Demonite Pre Skele
+		Tooltip: ""
+	}
+
+	Diamond: {
+		DisplayName: Diamond
+		Tooltip: ""
+	}
+
+	Dirt: {
+		DisplayName: Dirt
+		Tooltip: ""
+	}
+
+	Emerald: {
+		DisplayName: Emerald
+		Tooltip: ""
+	}
+
+	Fishron: {
+		DisplayName: Fishron
+		Tooltip: ""
+	}
+
+	Gold1: {
+		DisplayName: Gold1
+		Tooltip: ""
+	}
+
+	Gold2: {
+		DisplayName: Gold2
+		Tooltip: ""
+	}
+
+	Golem: {
+		DisplayName: Golem
+		Tooltip: ""
+	}
+
+	Hellstone: {
+		DisplayName: Hellstone
+		Tooltip: ""
+	}
+
+	Iron: {
+		DisplayName: Iron
+		Tooltip: ""
+	}
+
+	Jellyfish: {
+		DisplayName: Jellyfish
+		Tooltip: ""
+	}
+
+	Lead: {
+		DisplayName: Lead
+		Tooltip: ""
+	}
+
+	Luminite: {
+		DisplayName: Luminite
+		Tooltip: ""
+	}
+
+	Martian1: {
+		DisplayName: Martian1
+		Tooltip: ""
+	}
+
+	Martian2: {
+		DisplayName: Martian2
+		Tooltip: ""
+	}
+
+	Nebula: {
+		DisplayName: Nebula
+		Tooltip: ""
+	}
+
+	Pirate: {
+		DisplayName: Pirate
+		Tooltip: ""
+	}
+
+	Platinum: {
+		DisplayName: Platinum
+		Tooltip: ""
+	}
+
+	Ruby: {
+		DisplayName: Ruby
+		Tooltip: ""
+	}
+
+	Sapphire: {
+		DisplayName: Sapphire
+		Tooltip: ""
+	}
+
+	Shark: {
+		DisplayName: Shark
+		Tooltip: ""
+	}
+
+	Silver: {
+		DisplayName: Silver
+		Tooltip: ""
+	}
+
+	Solar: {
+		DisplayName: Solar
+		Tooltip: ""
+	}
+
+	Stardust: {
+		DisplayName: Stardust
+		Tooltip: ""
+	}
+
+	Star: {
+		DisplayName: Star
+		Tooltip: ""
+	}
+
+	Terra: {
+		DisplayName: Terra
+		Tooltip: ""
+	}
+
+	Tin: {
+		DisplayName: Tin
+		Tooltip: ""
+	}
+
+	Topaz: {
+		DisplayName: Topaz
+		Tooltip: ""
+	}
+
+	Tungsten: {
+		DisplayName: Tungsten
+		Tooltip: ""
+	}
+
+	Vortex: {
+		DisplayName: Vortex
+		Tooltip: ""
+	}
+
+	Adamantite: {
+		DisplayName: Adamantite
+		Tooltip: ""
+	}
+
+	Bat: {
+		DisplayName: Bat
+		Tooltip: ""
+	}
+
+	Cobalt: {
+		DisplayName: Cobalt
+		Tooltip: ""
+	}
+
+	Corrupt: {
+		DisplayName: Corrupt
+		Tooltip: ""
+	}
+
+	Eye: {
+		DisplayName: Eye
+		Tooltip: ""
+	}
+
+	Flame: {
+		DisplayName: Flame
+		Tooltip: ""
+	}
+
+	Glass: {
+		DisplayName: Glass
+		Tooltip: ""
+	}
+
+	Life: {
+		DisplayName: Life
+		Tooltip: ""
+	}
+
+	Meteor: {
+		DisplayName: Meteor
+		Tooltip: ""
+	}
+
+	Mushroom: {
+		DisplayName: Mushroom
+		Tooltip: ""
+	}
+
+	Mythril: {
+		DisplayName: Mythril
+		Tooltip: ""
+	}
+
+	Ninja: {
+		DisplayName: Ninja
+		Tooltip: ""
+	}
+
+	Orichalcum: {
+		DisplayName: Orichalcum
+		Tooltip: ""
+	}
+
+	Palladium: {
+		DisplayName: Palladium
+		Tooltip: ""
+	}
+
+	Slime: {
+		DisplayName: Slime
+		Tooltip: ""
+	}
+
+	Spider: {
+		DisplayName: Spider
+		Tooltip: ""
+	}
+
+	Stone: {
+		DisplayName: Stone
+		Tooltip: ""
+	}
+
+	Titanium: {
+		DisplayName: Titanium
+		Tooltip: ""
+	}
+
+	Torch: {
+		DisplayName: Torch
+		Tooltip: ""
+	}
+
+	Wood: {
+		DisplayName: Wood
+		Tooltip: ""
+	}
 }

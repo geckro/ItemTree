@@ -24,7 +24,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
-    public class SolarArtifact : ModItem
+    public class Solar : ModItem
     {
         public override void SetDefaults()
         {
@@ -121,6 +121,40 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.NebulaLeggings)
                 .AddIngredient(ItemID.WingsNebula)
                 .AddIngredient(ItemID.NebulaBlaze)
+                .AddTile(TileID.LunarCraftingStation)
+                .Register();
+        }
+    }
+    public class Void : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.Zenith)
+                .AddIngredient(ItemID.BoneKey)
+                .AddTile(TileID.LunarCraftingStation)
+                .Register();
+        }
+    }
+    public class PostML : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.LunaticCultistMasterTrophy)
+                .AddIngredient(ItemID.MoonLordMasterTrophy)
                 .AddTile(TileID.LunarCraftingStation)
                 .Register();
         }
