@@ -11,6 +11,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -24,6 +25,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Solar : ModItem
     {
         public override void SetDefaults()
@@ -32,6 +34,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -56,6 +59,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class SolarHouse : ModItem
     {
         public override void SetDefaults()
@@ -64,6 +68,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -93,6 +98,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Stardust : ModItem
     {
         public override void SetDefaults()
@@ -101,6 +107,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -126,6 +133,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class StardustHouse : ModItem
     {
         public override void SetDefaults()
@@ -134,6 +142,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -163,6 +172,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Vortex : ModItem
     {
         public override void SetDefaults()
@@ -172,6 +182,7 @@ namespace ItemTree.Items
             Item.rare = ItemRarityID.Blue;
             Item.value = 9000; // 1g + 5g + 3g
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -196,6 +207,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class VortexHouse : ModItem
     {
         public override void SetDefaults()
@@ -204,6 +216,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -233,6 +246,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Nebula : ModItem
     {
         public override void SetDefaults()
@@ -241,6 +255,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -264,6 +279,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class NebulaHouse : ModItem
     {
         public override void SetDefaults()
@@ -272,6 +288,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -301,6 +318,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Void : ModItem
     {
         public override void SetDefaults()
@@ -309,6 +327,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -318,6 +337,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class PostML : ModItem
     {
         public override void SetDefaults()
@@ -326,6 +346,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -335,6 +356,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class MusicBox : ModItem
     {
         public override void SetDefaults()
@@ -343,6 +365,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -435,6 +458,69 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.MusicBoxUndergroundHallow)
                 .AddIngredient(ItemID.MusicBoxUndergroundJungle)
                 .AddIngredient(ItemID.MusicBoxWindyDay)
+                .AddTile(TileID.LunarCraftingStation)
+                .Register();
+        }
+    }
+
+    public class Unobtainable : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.SolarFlareHammer)
+                .AddIngredient(ItemID.SolarFlareChainsaw)
+                .AddIngredient(ItemID.SolarFlareAxe)
+                .AddIngredient(ItemID.NebulaHammer)
+                .AddIngredient(ItemID.NebulaChainsaw)
+                .AddIngredient(ItemID.NebulaAxe)
+                .AddIngredient(ItemID.StardustHammer)
+                .AddIngredient(ItemID.StardustChainsaw)
+                .AddIngredient(ItemID.StardustAxe)
+                .AddIngredient(ItemID.VortexHammer)
+                .AddIngredient(ItemID.VortexChainsaw)
+                .AddIngredient(ItemID.VortexAxe)
+                .AddIngredient(ItemID.FirstFractal)
+                .AddIngredient(ItemID.SkeletonBow)
+                .AddIngredient(ItemID.BlueCultistArcherBanner)
+                .AddIngredient(ItemID.BlueCultistFighterBanner)
+                .AddIngredient(ItemID.BlueCultistCasterBanner)
+                .AddIngredient(ItemID.WhiteCultistArcherBanner)
+                .AddIngredient(ItemID.WhiteCultistFighterBanner)
+                .AddIngredient(ItemID.WhiteCultistCasterBanner)
+                .AddIngredient(ItemID.SeveredHandBanner)
+                .AddIngredient(ItemID.PoisonousSporeBanner)
+                .AddIngredient(ItemID.YellowPresent)
+                .AddIngredient(ItemID.GreenPresent)
+                .AddIngredient(ItemID.ColorOnlyDye)
+                .AddIngredient(ItemID.BluePresent)
+                .AddIngredient(ItemID.SleepingIcon)
+                .AddIngredient(ItemID.CultistBossBag)
+                .AddIngredient(ItemID.LesserRestorationPotion)
+                .AddIngredient(ItemID.BossBagOgre)
+                .AddIngredient(ItemID.BossBagDarkMage)
+                .AddIngredient(ItemID.EtherianJavelin)
+                .AddIngredient(ItemID.KoboldDynamiteBackpack)
+                .AddIngredient(ItemID.GoblinBomberCap)
+                .AddIngredient(ItemID.ApplePieSlice)
+                .AddIngredient(ItemID.PhasicWarpEjector)
+                .AddIngredient(ItemID.BoringBow)
+                .AddIngredient(ItemID.OgreMask)
+                .AddIngredient(ItemID.GoblinMask)
+                .AddIngredient(ItemID.CorruptionKeyMold)
+                .AddIngredient(ItemID.CrimsonKeyMold)
+                .AddIngredient(ItemID.FrozenKeyMold)
+                .AddIngredient(ItemID.HallowedKeyMold)
+                .AddIngredient(ItemID.JungleKeyMold)
+                .AddIngredient(ItemID.Fake_newchest1)
+                .AddIngredient(ItemID.Fake_newchest2)
                 .AddTile(TileID.LunarCraftingStation)
                 .Register();
         }

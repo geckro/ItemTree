@@ -12,6 +12,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -29,6 +30,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Frost : ModItem
     {
         public override void SetDefaults()
@@ -37,6 +39,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -50,6 +53,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Fungus : ModItem
     {
         public override void SetDefaults()
@@ -58,6 +62,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -85,6 +90,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Hallowed : ModItem
     {
         public override void SetDefaults()
@@ -93,6 +99,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -110,6 +117,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class HallowedAncient : ModItem
     {
         public override void SetDefaults()
@@ -118,6 +126,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -135,6 +144,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Lihzahrd : ModItem
     {
         public override void SetDefaults()
@@ -143,6 +153,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -156,6 +167,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class LihzahrdHouse : ModItem
     {
         public override void SetDefaults()
@@ -164,6 +176,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -193,6 +206,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Plantera : ModItem
     {
         public override void SetDefaults()
@@ -201,6 +215,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -222,6 +237,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class PreGolem : ModItem
     {
         public override void SetDefaults()
@@ -230,6 +246,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -248,6 +265,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Spectre : ModItem
     {
         public override void SetDefaults()
@@ -256,6 +274,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -276,6 +295,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Skeleton : ModItem
     {
         public override void SetDefaults()
@@ -284,6 +304,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -303,6 +324,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class SpookyHouse : ModItem
     {
         public override void SetDefaults()
@@ -311,6 +333,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -339,6 +362,27 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
+    public class Steampunk : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.SteampunkHat)
+                .AddIngredient(ItemID.SteampunkShirt)
+                .AddIngredient(ItemID.SteampunkPants)
+                .AddTile(TileID.SteampunkBoiler)
+                .Register();
+        }
+    }
+
     public class SteampunkHouse : ModItem
     {
         public override void SetDefaults()
@@ -347,6 +391,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()

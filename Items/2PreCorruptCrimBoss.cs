@@ -11,6 +11,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -20,6 +21,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Eye2 : ModItem
     {
         public override void SetDefaults()
@@ -28,6 +30,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -40,6 +43,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Grass : ModItem
     {
         public override void SetDefaults()
@@ -49,6 +53,7 @@ namespace ItemTree.Items
             Item.rare = ItemRarityID.Blue;
             Item.value = 9000; // 1g + 5g + 3g
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -62,6 +67,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Ninja : ModItem
     {
         public override void SetDefaults()
@@ -70,6 +76,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -81,6 +88,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class PumpkinHouse : ModItem
     {
         public override void SetDefaults()
@@ -89,6 +97,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -117,6 +126,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Slimy : ModItem
     {
         public override void SetDefaults()
@@ -125,6 +135,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -141,6 +152,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class SlimeHouse : ModItem
     {
         public override void SetDefaults()
@@ -149,6 +161,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()

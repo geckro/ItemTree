@@ -3,6 +3,30 @@ using Terraria.ModLoader;
 
 namespace ItemTree.Items
 {
+    public class Angel : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.AngelWings)
+                .AddIngredient(ItemID.HarpyWings)
+                .AddIngredient(ItemID.SoulofFlight)
+                .AddIngredient(ItemID.MirageDye)
+                .AddIngredient(ItemID.WyvernBanner)
+                .AddIngredient(ItemID.KiteWyvern)
+                .AddIngredient(ItemID.Wyverntail)
+                .AddTile(TileID.MythrilAnvil)
+                .Register();
+        }
+    }
+    
     public class Adamantite : ModItem
     {
         public override void SetDefaults()
@@ -11,30 +35,32 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddIngredient(ItemID.AdamantiteOre)
                 .AddIngredient(ItemID.AdamantiteBar)
                 .AddIngredient(ItemID.AdamantiteBeam)
                 .AddIngredient(ItemID.AdamantiteBeamWall)
-                .AddIngredient(ItemID.AdamantiteHelmet)
                 .AddIngredient(ItemID.AdamantiteBreastplate)
-                .AddIngredient(ItemID.AdamantiteLeggings)
-                .AddIngredient(ItemID.AdamantiteHeadgear)
-                .AddIngredient(ItemID.AdamantiteMask)
+                .AddIngredient(ItemID.AdamantiteChainsaw)
                 .AddIngredient(ItemID.AdamantiteDrill)
-                .AddIngredient(ItemID.AdamantitePickaxe)
-                .AddIngredient(ItemID.AdamantiteGlaive)
                 .AddIngredient(ItemID.AdamantiteForge)
+                .AddIngredient(ItemID.AdamantiteGlaive)
+                .AddIngredient(ItemID.AdamantiteHeadgear)
+                .AddIngredient(ItemID.AdamantiteHelmet)
+                .AddIngredient(ItemID.AdamantiteLeggings)
+                .AddIngredient(ItemID.AdamantiteMask)
+                .AddIngredient(ItemID.AdamantiteOre)
+                .AddIngredient(ItemID.AdamantitePickaxe)
+                .AddIngredient(ItemID.AdamantiteRepeater)
                 .AddIngredient(ItemID.AdamantiteSword)
                 .AddIngredient(ItemID.AdamantiteWaraxe)
-                .AddIngredient(ItemID.AdamantiteRepeater)
-                .AddIngredient(ItemID.AdamantiteChainsaw)
                 .AddTile(TileID.MythrilAnvil)
                 .Register();
         }
     }
+
     public class Cobalt : ModItem
     {
         public override void SetDefaults()
@@ -43,6 +69,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -66,6 +93,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class CrystalHouse : ModItem
     {
         public override void SetDefaults()
@@ -74,6 +102,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -95,7 +124,8 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.CrystalBathtub)
                 .AddIngredient(ItemID.CrystalLamp)
                 .AddIngredient(ItemID.CrystalCandelabra)
-                .AddIngredient(ItemID.CrystalSofaHowDoesThatEvenWork) // Crystal Sofa How does that even work???????? no fucking way
+                .AddIngredient(ItemID
+                    .CrystalSofaHowDoesThatEvenWork) // Crystal Sofa How does that even work???????? no fucking way
                 .AddIngredient(ItemID.CrystalClock)
                 .AddIngredient(ItemID.ToiletCrystal)
                 .AddIngredient(ItemID.CrystalSink)
@@ -103,6 +133,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class FleshHouse : ModItem
     {
         public override void SetDefaults()
@@ -111,6 +142,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -140,6 +172,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class GoldenHouse : ModItem
     {
         public override void SetDefaults()
@@ -148,6 +181,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -175,6 +209,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Icey : ModItem
     {
         public override void SetDefaults()
@@ -183,9 +218,14 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
+                .AddIngredient(ItemID.FrostHelmet)
+                .AddIngredient(ItemID.FrostBreastplate)
+                .AddIngredient(ItemID.FrostLeggings)
+                .AddIngredient(ItemID.FrostCore)
                 .AddIngredient(ItemID.Frostbrand)
                 .AddIngredient(ItemID.IceBow)
                 .AddIngredient(ItemID.FlowerofFrost)
@@ -198,6 +238,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class LesionHouse : ModItem
     {
         public override void SetDefaults()
@@ -206,6 +247,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -235,6 +277,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Orichalcum : ModItem
     {
         public override void SetDefaults()
@@ -243,6 +286,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -267,6 +311,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Palladium : ModItem
     {
         public override void SetDefaults()
@@ -275,6 +320,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -298,6 +344,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Pearlwood : ModItem
     {
         public override void SetDefaults()
@@ -306,6 +353,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -317,10 +365,13 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.PearlwoodBreastplate)
                 .AddIngredient(ItemID.PearlwoodGreaves)
                 .AddIngredient(ItemID.WoodenCrateHard) // Pearlwood Crate
+                .AddIngredient(ItemID.Dragonfruit)
+                .AddIngredient(ItemID.Starfruit)
                 .AddTile(TileID.WorkBenches)
                 .Register();
         }
     }
+
     public class PearlwoodHouse : ModItem
     {
         public override void SetDefaults()
@@ -329,6 +380,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -358,6 +410,34 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+    
+    public class QueenSlime : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.QueenSlimeTrophy)
+                .AddIngredient(ItemID.QueenSlimeMask)
+                .AddIngredient(ItemID.QueenSlimeHook)
+                .AddIngredient(ItemID.Smolstar)
+                .AddIngredient(ItemID.CrystalNinjaHelmet)
+                .AddIngredient(ItemID.CrystalNinjaChestplate)
+                .AddIngredient(ItemID.CrystalNinjaLeggings)
+                .AddIngredient(ItemID.QueenSlimeHook)
+                .AddIngredient(ItemID.QueenSlimeMountSaddle)
+                .AddIngredient(ItemID.QueenSlimeCrystal)
+                .AddTile(TileID.Solidifier)
+                .Register();
+        }
+    }
+
     public class Pirate : ModItem
     {
         public override void SetDefaults()
@@ -386,6 +466,31 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+    
+    public class Pixie : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.PixieDust)
+                .AddIngredient(ItemID.PixieBanner)
+                .AddIngredient(ItemID.FairyWings)
+                .AddIngredient(ItemID.RainbowRod)
+                .AddIngredient(ItemID.HolyArrow)
+                .AddIngredient(ItemID.FairyBell)
+                .AddIngredient(ItemID.HolyWater)
+                .AddTile(TileID.MythrilAnvil)
+                .Register();
+        }
+    }
+
     public class Mythril : ModItem
     {
         public override void SetDefaults()
@@ -394,6 +499,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -420,6 +526,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class PreMech : ModItem
     {
         public override void SetDefaults()
@@ -428,6 +535,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -438,6 +546,31 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
+    public class Santa : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.SantaHat)
+                .AddIngredient(ItemID.SantaShirt)
+                .AddIngredient(ItemID.SantaPants)
+                .AddIngredient(ItemID.ChristmasTree)
+                .AddIngredient(ItemID.RedLight)
+                .AddIngredient(ItemID.GreenLight)
+                .AddIngredient(ItemID.BlueLight)
+                .AddTile(TileID.IceMachine)
+                .Register();
+        }
+    }
+
     public class Shadowflame : ModItem
     {
         public override void SetDefaults()
@@ -446,6 +579,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -457,6 +591,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class SpiderHouse : ModItem
     {
         public override void SetDefaults()
@@ -465,6 +600,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -494,6 +630,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Terra : ModItem
     {
         public override void SetDefaults()
@@ -502,6 +639,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -513,6 +651,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Titanium : ModItem
     {
         public override void SetDefaults()
@@ -521,6 +660,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -541,6 +681,28 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.TitaniumWaraxe)
                 .AddIngredient(ItemID.TitaniumRepeater)
                 .AddIngredient(ItemID.TitaniumChainsaw)
+                .AddTile(TileID.MythrilAnvil)
+                .Register();
+        }
+    }
+    
+    public class Unicorn : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.UnicornBanner)
+                .AddIngredient(ItemID.BlessedApple)
+                .AddIngredient(ItemID.UnicornHorn)
+                .AddIngredient(ItemID.UnicornonaStick)
+                .AddIngredient(ItemID.KiteUnicorn)
                 .AddTile(TileID.MythrilAnvil)
                 .Register();
         }

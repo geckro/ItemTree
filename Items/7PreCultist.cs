@@ -12,6 +12,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -26,6 +27,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Fishron : ModItem
     {
         public override void SetDefaults()
@@ -34,6 +36,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -50,6 +53,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Golem : ModItem
     {
         public override void SetDefaults()
@@ -58,6 +62,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -76,6 +81,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Martian1 : ModItem
     {
         public override void SetDefaults()
@@ -84,6 +90,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -106,6 +113,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Martian2 : ModItem
     {
         public override void SetDefaults()
@@ -114,6 +122,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -134,6 +143,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class MartianHouse : ModItem
     {
         public override void SetDefaults()
@@ -142,6 +152,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -171,6 +182,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class PreCultist : ModItem
     {
         public override void SetDefaults()
@@ -179,6 +191,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()

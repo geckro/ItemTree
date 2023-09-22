@@ -11,6 +11,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -40,6 +41,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class BoneHouse : ModItem
     {
         public override void SetDefaults()
@@ -48,6 +50,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -75,6 +78,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class GothicHouse : ModItem
     {
         public override void SetDefaults()
@@ -83,6 +87,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -90,10 +95,13 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.GothicChair)
                 .AddIngredient(ItemID.GothicTable)
                 .AddIngredient(ItemID.GothicBookcase)
+                .AddIngredient(ItemID.Spike)
+                .AddIngredient(ItemID.ChainLantern)
                 .AddTile(TileID.WorkBenches)
                 .Register();
         }
     }
+
     public class GreenDungeonHouse : ModItem
     {
         public override void SetDefaults()
@@ -102,6 +110,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -131,6 +140,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class PinkDungeonHouse : ModItem
     {
         public override void SetDefaults()
@@ -139,6 +149,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -168,6 +179,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class Skeletron : ModItem
     {
         public override void SetDefaults()
@@ -176,6 +188,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -189,6 +202,7 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.NecroBreastplate)
                 .AddIngredient(ItemID.NecroGreaves)
                 .AddIngredient(ItemID.AncientNecroHelmet)
+                .AddIngredient(ItemID.Handgun)
                 .AddIngredient(ItemID.AngryBonesBanner)
                 .AddIngredient(ItemID.CursedSkullBanner)
                 .AddIngredient(ItemID.SkeletonMageBanner) // Dark Caster Banner
@@ -197,6 +211,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+
     public class DungeonWater : ModItem
     {
         public override void SetDefaults()
@@ -205,6 +220,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()
@@ -213,12 +229,39 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.AquaScepter)
                 .AddIngredient(ItemID.MagicMissile)
                 .AddIngredient(ItemID.Nazar)
+                .AddIngredient(ItemID.WaterBolt)
                 .AddIngredient(ItemID.DungeonSlimeBanner)
                 .AddIngredient(ItemID.WaterCandle)
+                .AddIngredient(ItemID.CobaltShield)
                 .AddTile(TileID.BoneWelder)
                 .Register();
         }
     }
+
+    public class Evil : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.NightsEdge)
+                .AddIngredient(ItemID.DarkLance)
+                .AddIngredient(ItemID.DemonScythe)
+                .AddIngredient(ItemID.FamiliarWig)
+                .AddIngredient(ItemID.FamiliarShirt)
+                .AddIngredient(ItemID.FamiliarPants)
+                .AddIngredient(ItemID.GuideVoodooDoll)
+                .AddTile(TileID.DemonAltar)
+                .Register();
+        }
+    }
+
     public class PreHardmodeWOF : ModItem
     {
         public override void SetDefaults()
@@ -227,6 +270,7 @@ namespace ItemTree.Items
             Item.height = 20;
             Item.rare = ItemRarityID.Blue;
         }
+
         public override void AddRecipes()
         {
             CreateRecipe()

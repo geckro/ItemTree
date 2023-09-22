@@ -236,6 +236,11 @@ Mods: {
 				Tooltip: ""
 			}
 
+			Balloon: {
+				Tooltip: ""
+				DisplayName: Balloon
+			}
+
 			BambooHouse: {
 				DisplayName: Bamboo House
 				Tooltip: ""
@@ -391,6 +396,11 @@ Mods: {
 				Tooltip: ""
 			}
 
+			Obsidian: {
+				Tooltip: ""
+				DisplayName: Obsidian
+			}
+
 			PalmWood: {
 				DisplayName: Palm Wood
 				Tooltip: ""
@@ -481,6 +491,11 @@ Mods: {
 				Tooltip: ""
 			}
 
+			Steampunk: {
+				DisplayName: Steampunk
+				Tooltip: ""
+			}
+
 			VortexHouse: {
 				DisplayName: Vortex House
 				Tooltip: ""
@@ -488,6 +503,136 @@ Mods: {
 
 			WoodHouse: {
 				DisplayName: Wood House
+				Tooltip: ""
+			}
+
+			Water: {
+				Tooltip: ""
+				DisplayName: Water
+			}
+
+			Tuxedo: {
+				Tooltip: ""
+				DisplayName: Tuxedo
+			}
+
+			Snow: {
+				Tooltip: ""
+				DisplayName: Snow
+			}
+
+			Silk: {
+				Tooltip: ""
+				DisplayName: Silk
+			}
+
+			Mud: {
+				Tooltip: ""
+				DisplayName: Mud
+			}
+
+			Lava: {
+				Tooltip: ""
+				DisplayName: Lava
+			}
+
+			JungleSpore: {
+				Tooltip: ""
+				DisplayName: Jungle Spore
+			}
+
+			JungleHornet: {
+				Tooltip: ""
+				DisplayName: Jungle Hornet
+			}
+
+			Honeybee: {
+				Tooltip: ""
+				DisplayName: Honeybee
+			}
+
+			ForestTreeShaking: {
+				Tooltip: ""
+				DisplayName: Forest Tree Shaking
+			}
+
+			Fart: {
+				Tooltip: ""
+				DisplayName: Fart
+			}
+
+			Evil: {
+				Tooltip: ""
+				DisplayName: Evil
+			}
+
+			Clay: {
+				Tooltip: ""
+				DisplayName: Clay
+			}
+
+			Book: {
+				Tooltip: ""
+				DisplayName: Book
+			}
+
+			BeeQueen: {
+				Tooltip: ""
+				DisplayName: Bee Queen
+			}
+
+			Archaeologist: {
+				Tooltip: ""
+				DisplayName: Archaeologist
+			}
+
+			OreTrophy: {
+				Tooltip: ""
+				DisplayName: Ore Trophy
+			}
+
+			WoodenMansion: {
+				Tooltip: ""
+				DisplayName: Wooden Mansion
+			}
+
+			OtherwordlyMansion: {
+				Tooltip: ""
+				DisplayName: Otherwordly Mansion
+			}
+
+			MonsterMansion: {
+				Tooltip: ""
+				DisplayName: Monster Mansion
+			}
+
+			HouseInAHouseInAHouse: {
+				Tooltip: ""
+				DisplayName: House In A House In A House
+			}
+
+			HardmodeOreTrophy: {
+				Tooltip: ""
+				DisplayName: Hardmode Ore Trophy
+			}
+
+			GemTrophy: {
+				Tooltip: ""
+				DisplayName: Gem Trophy
+			}
+
+			BlockMansion: {
+				Tooltip: ""
+				DisplayName: Block Mansion
+			}
+
+			Santa: {
+				DisplayName: Santa
+				Tooltip: ""
+			}
+
+			Unobtainable: {
+				DisplayName: Unobtainable
 				Tooltip: ""
 			}
 		}
