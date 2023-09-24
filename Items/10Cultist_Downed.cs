@@ -3,6 +3,27 @@ using Terraria.ModLoader;
 
 namespace ItemTree.Items
 {
+    public class Clentaminator2 : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.Clentaminator2)
+                .AddIngredient(ItemID.SandSolution)
+                .AddIngredient(ItemID.SnowSolution)
+                .AddIngredient(ItemID.DirtSolution)
+                .AddTile(TileID.CrystalBall)
+                .Register();
+        }
+    }
+    
     public class Luminite : ModItem
     {
         public override void SetDefaults()

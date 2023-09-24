@@ -24,7 +24,9 @@ namespace ItemTree.Items
                 .AddIngredient<Gold1>()
                 .AddIngredient<Gold2>()
                 .AddIngredient<Platinum>()
+                .AddIngredient<Demonite>()
                 .AddIngredient<DemonitePreSkele>()
+                .AddIngredient<Crimtane>()
                 .AddIngredient<CrimtanePreSkele>()
                 .AddIngredient<Hellstone>()
                 .AddTile(TileID.Hellforge)
@@ -74,6 +76,9 @@ namespace ItemTree.Items
                 .AddIngredient<Orichalcum>()
                 .AddIngredient<Adamantite>()
                 .AddIngredient<Titanium>()
+                .AddIngredient<Hallowed>()
+                .AddIngredient<HallowedAncient>()
+                .AddIngredient<Spectre>()
                 .AddTile(TileID.Autohammer)
                 .Register();
         }
@@ -213,6 +218,26 @@ namespace ItemTree.Items
                 .AddIngredient<WoodenMansion>()
                 .AddIngredient<MonsterMansion>()
                 .AddTile(TileID.LunarCraftingStation)
+                .Register();
+        }
+    }
+    
+    public class MiningTrophy : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient<OreTrophy>()
+                .AddIngredient<HardmodeOreTrophy>()
+                .AddIngredient<GemTrophy>()
+                .AddTile(TileID.Autohammer)
                 .Register();
         }
     }

@@ -316,4 +316,34 @@ Items: {
 		DisplayName: Wood
 		Tooltip: ""
 	}
+
+	Bookcases: {
+		DisplayName: Bookcases
+		Tooltip: ""
+	}
+
+	DungeonPaintings: {
+		DisplayName: Dungeon Paintings
+		Tooltip: ""
+	}
+
+	DungeonSkeleton: {
+		DisplayName: Dungeon Skeleton
+		Tooltip: ""
+	}
+
+	Pianos: {
+		DisplayName: Pianos
+		Tooltip: ""
+	}
+
+	WitchDoctor: {
+		DisplayName: Witch Doctor
+		Tooltip: ""
+	}
+
+	Fountains: {
+		DisplayName: Fountains
+		Tooltip: ""
+	}
 }

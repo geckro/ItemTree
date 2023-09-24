@@ -635,6 +635,196 @@ Mods: {
 				DisplayName: Unobtainable
 				Tooltip: ""
 			}
+
+			Angel: {
+				DisplayName: Angel
+				Tooltip: ""
+			}
+
+			Bird: {
+				DisplayName: Bird
+				Tooltip: ""
+			}
+
+			BlackSpider: {
+				DisplayName: Black Spider
+				Tooltip: ""
+			}
+
+			BlinkrootWaterleafShiverthorn: {
+				DisplayName: Blinkroot Waterleaf Shiverthorn
+				Tooltip: ""
+			}
+
+			BloodMoon: {
+				DisplayName: Blood Moon
+				Tooltip: ""
+			}
+
+			Bunny: {
+				DisplayName: Bunny
+				Tooltip: ""
+			}
+
+			Clentaminator: {
+				DisplayName: Clentaminator
+				Tooltip: ""
+			}
+
+			Clentaminator2: {
+				DisplayName: Clentaminator2
+				Tooltip: ""
+			}
+
+			Clothier: {
+				DisplayName: Clothier
+				Tooltip: ""
+			}
+
+			Crab: {
+				DisplayName: Crab
+				Tooltip: ""
+			}
+
+			Crimson: {
+				DisplayName: Crimson
+				Tooltip: ""
+			}
+
+			DaybloomMoonglow: {
+				DisplayName: Daybloom Moonglow
+				Tooltip: ""
+			}
+
+			DeathweedFireblossom: {
+				DisplayName: Deathweed Fireblossom
+				Tooltip: ""
+			}
+
+			Dye: {
+				DisplayName: Dye
+				Tooltip: ""
+			}
+
+			DyeAndBlack: {
+				DisplayName: Dye And Black
+				Tooltip: ""
+			}
+
+			DyeAndSilver: {
+				DisplayName: Dye And Silver
+				Tooltip: ""
+			}
+
+			DyeBright: {
+				DisplayName: Dye Bright
+				Tooltip: ""
+			}
+
+			DyeGradient: {
+				DisplayName: Dye Gradient
+				Tooltip: ""
+			}
+
+			Fishing: {
+				DisplayName: Fishing
+				Tooltip: ""
+			}
+
+			Goldfish: {
+				DisplayName: Goldfish
+				Tooltip: ""
+			}
+
+			GolfBalls: {
+				DisplayName: Golf Balls
+				Tooltip: ""
+			}
+
+			Hermes: {
+				DisplayName: Hermes
+				Tooltip: ""
+			}
+
+			Lucky: {
+				DisplayName: Lucky
+				Tooltip: ""
+			}
+
+			Nymph: {
+				DisplayName: Nymph
+				Tooltip: ""
+			}
+
+			Pearlstone: {
+				DisplayName: Pearlstone
+				Tooltip: ""
+			}
+
+			Piranha: {
+				DisplayName: Piranha
+				Tooltip: ""
+			}
+
+			Pixie: {
+				DisplayName: Pixie
+				Tooltip: ""
+			}
+
+			PressurePlate: {
+				DisplayName: Pressure Plate
+				Tooltip: ""
+			}
+
+			QueenSlime: {
+				DisplayName: Queen Slime
+				Tooltip: ""
+			}
+
+			Reference: {
+				DisplayName: Reference
+				Tooltip: ""
+			}
+
+			Salamander: {
+				DisplayName: Salamander
+				Tooltip: ""
+			}
+
+			SandEvil: {
+				DisplayName: Sand Evil
+				Tooltip: ""
+			}
+
+			Sunflower: {
+				DisplayName: Sunflower
+				Tooltip: ""
+			}
+
+			Unicorn: {
+				DisplayName: Unicorn
+				Tooltip: ""
+			}
+
+			Wires: {
+				DisplayName: Wires
+				Tooltip: ""
+			}
+
+			Wizard: {
+				DisplayName: Wizard
+				Tooltip: ""
+			}
+
+			YoyoString: {
+				DisplayName: Yoyo String
+				Tooltip: ""
+			}
+
+			MiningTrophy: {
+				DisplayName: Mining Trophy
+				Tooltip: ""
+			}
 		}
 	}
 }

@@ -371,6 +371,33 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+    
+    public class Pearlstone : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.PearlstoneBlock)
+                .AddIngredient(ItemID.PearlstoneBrick)
+                .AddIngredient(ItemID.PearlstoneBrickWall)
+                .AddIngredient(ItemID.PearlsandBlock)
+                .AddIngredient(ItemID.PinkIceBlock)
+                .AddIngredient(ItemID.PearlstoneEcho)
+                .AddIngredient(ItemID.Hallow1Echo)
+                .AddIngredient(ItemID.Hallow2Echo)
+                .AddIngredient(ItemID.Hallow3Echo)
+                .AddIngredient(ItemID.Hallow4Echo)
+                .AddTile(TileID.WorkBenches)
+                .Register();
+        }
+    }
 
     public class PearlwoodHouse : ModItem
     {
@@ -587,6 +614,32 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.ShadowFlameHexDoll)
                 .AddIngredient(ItemID.ShadowFlameBow)
                 .AddIngredient(ItemID.ShadowFlameKnife)
+                .AddTile(TileID.MythrilAnvil)
+                .Register();
+        }
+    }
+    
+    public class BlackSpider : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.BlackRecluseBanner)
+                .AddIngredient(ItemID.SpiderFang)
+                .AddIngredient(ItemID.SpiderMask)
+                .AddIngredient(ItemID.SpiderBreastplate)
+                .AddIngredient(ItemID.SpiderGreaves)
+                .AddIngredient(ItemID.QueenSpiderStaff)
+                .AddIngredient(ItemID.SpiderStaff)
+                .AddIngredient(ItemID.VenomDartTrap)
+                .AddIngredient(ItemID.PoisonStaff)
                 .AddTile(TileID.MythrilAnvil)
                 .Register();
         }

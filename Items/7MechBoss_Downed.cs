@@ -4,6 +4,29 @@ using Terraria.ModLoader;
 // After the mechanical bosses, before-after Plantera
 namespace ItemTree.Items
 {
+    public class Clentaminator : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.Clentaminator)
+                .AddIngredient(ItemID.GreenSolution)
+                .AddIngredient(ItemID.BlueSolution)
+                .AddIngredient(ItemID.PurpleSolution)
+                .AddIngredient(ItemID.DarkBlueSolution)
+                .AddIngredient(ItemID.RedSolution)
+                .AddTile(TileID.CrystalBall)
+                .Register();
+        }
+    }
+    
     public class Empress : ModItem
     {
         public override void SetDefaults()

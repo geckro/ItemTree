@@ -10,7 +10,7 @@ namespace ItemTree.Items
         {
             Item.width = 20;
             Item.height = 20;
-            Item.rare = ItemRarityID.Blue;
+            Item.rare = ItemRarityID.Gray;
         }
 
         public override void AddRecipes()
@@ -65,7 +65,7 @@ namespace ItemTree.Items
         {
             Item.width = 20;
             Item.height = 20;
-            Item.rare = ItemRarityID.Blue;
+            Item.rare = ItemRarityID.Orange;
         }
 
         public override void AddRecipes()
@@ -73,21 +73,20 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.Amber)
                 .AddIngredient(ItemID.GemTreeAmberSeed) // Amber Gemcorn
-                .AddIngredient(ItemID.GemBunnyAmber) // Amber Bunny
-                .AddIngredient(ItemID.GemSquirrelAmber) // Amber Squirrel
                 .AddIngredient(ItemID.AmberHook)
-                .AddIngredient(ItemID.AmberStoneWallEcho) // Amber Stone Wall
                 .AddIngredient(ItemID.AmberRobe)
                 .AddIngredient(ItemID.LargeAmber)
                 .AddIngredient(ItemID.AmberStaff)
                 .AddIngredient(ItemID.AmberMosquito)
                 .AddIngredient(ItemID.AmberStoneBlock)
+                .AddIngredient(ItemID.AmberStoneWallEcho) // Amber Stone Wall
                 .AddIngredient(ItemID.GemLockAmber) // Amber Gem Lock
                 .AddIngredient(ItemID.AmberGemsparkBlock)
                 .AddIngredient(ItemID.AmberGemsparkWall)
                 .AddIngredient(ItemID.AmberGemsparkWallOff)
-                .AddIngredient(ItemID.OrangePhaseblade)
+                .AddIngredient(ItemID.GemBunnyAmber) // Amber Bunny
                 .AddIngredient(ItemID.AmberBunnyCage)
+                .AddIngredient(ItemID.GemSquirrelAmber) // Amber Squirrel
                 .AddIngredient(ItemID.AmberSquirrelCage)
                 .AddIngredient(ItemID.AmberMinecart)
                 .AddTile(TileID.Anvils)
@@ -101,7 +100,7 @@ namespace ItemTree.Items
         {
             Item.width = 20;
             Item.height = 20;
-            Item.rare = ItemRarityID.Blue;
+            Item.rare = ItemRarityID.Purple;
         }
 
         public override void AddRecipes()
@@ -121,7 +120,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.AmethystGemsparkBlock)
                 .AddIngredient(ItemID.AmethystGemsparkWall)
                 .AddIngredient(ItemID.AmethystGemsparkWallOff)
-                .AddIngredient(ItemID.PurplePhaseblade)
                 .AddIngredient(ItemID.AmethystBunnyCage)
                 .AddIngredient(ItemID.AmethystSquirrelCage)
                 .AddIngredient(ItemID.AmethystMinecart)
@@ -149,7 +147,7 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.AntlionBanner)
                 .AddIngredient(ItemID.AntlionEggs)
                 .AddIngredient(ItemID.AntlionClaw) // Mandible Blade
-                .AddTile(TileID.Anvils)
+                .AddTile(TileID.GlassKiln)
                 .Register();
         }
     }
@@ -160,13 +158,14 @@ namespace ItemTree.Items
         {
             Item.width = 20;
             Item.height = 20;
-            Item.rare = ItemRarityID.Blue;
+            Item.rare = ItemRarityID.Orange;
         }
 
         public override void AddRecipes()
         {
             CreateRecipe()
                 .AddIngredient(ItemID.DoctorBonesBanner)
+                .AddIngredient(ItemID.Leather)
                 .AddIngredient(ItemID.ArchaeologistsHat)
                 .AddIngredient(ItemID.ArchaeologistsJacket)
                 .AddIngredient(ItemID.ArchaeologistsPants)
@@ -182,7 +181,7 @@ namespace ItemTree.Items
         {
             Item.width = 20;
             Item.height = 20;
-            Item.rare = ItemRarityID.Blue;
+            Item.rare = ItemRarityID.Red;
         }
 
         public override void AddRecipes()
@@ -206,7 +205,7 @@ namespace ItemTree.Items
         {
             Item.width = 20;
             Item.height = 20;
-            Item.rare = ItemRarityID.Blue;
+            Item.rare = ItemRarityID.Red;
         }
 
         public override void AddRecipes()
@@ -214,7 +213,6 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.AshWoodBathtub)
                 .AddIngredient(ItemID.AshWoodBed)
-                .AddIngredient(ItemID.AshWoodBookcase)
                 .AddIngredient(ItemID.AshWoodCandelabra)
                 .AddIngredient(ItemID.AshWoodCandle)
                 .AddIngredient(ItemID.AshWoodChair)
@@ -226,7 +224,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.AshWoodFence)
                 .AddIngredient(ItemID.AshWoodLamp)
                 .AddIngredient(ItemID.AshWoodLantern)
-                .AddIngredient(ItemID.AshWoodPiano)
                 .AddIngredient(ItemID.AshWoodPlatform)
                 .AddIngredient(ItemID.AshWoodSink)
                 .AddIngredient(ItemID.AshWoodSofa)
@@ -263,8 +260,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.BalloonHorseshoeSharkron)
                 .AddIngredient(ItemID.SharkronBalloon)
                 .AddIngredient(ItemID.BalloonHorseshoeFart)
-                .AddIngredient(ItemID.HoneyBalloon)
-                .AddIngredient(ItemID.BalloonHorseshoeHoney)
                 .AddIngredient(ItemID.LuckyHorseshoe)
                 .AddTile(TileID.SkyMill)
                 .Register();
@@ -285,7 +280,6 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.BalloonBathtub)
                 .AddIngredient(ItemID.BalloonBed)
-                .AddIngredient(ItemID.BalloonBookcase)
                 .AddIngredient(ItemID.BalloonCandelabra)
                 .AddIngredient(ItemID.BalloonCandle)
                 .AddIngredient(ItemID.BalloonChair)
@@ -296,7 +290,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.BalloonDresser)
                 .AddIngredient(ItemID.BalloonLamp)
                 .AddIngredient(ItemID.BalloonLantern)
-                .AddIngredient(ItemID.BalloonPiano)
                 .AddIngredient(ItemID.BalloonPlatform)
                 .AddIngredient(ItemID.BalloonSink)
                 .AddIngredient(ItemID.BalloonSofa)
@@ -306,7 +299,7 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.SillyBalloonGreenWall)
                 .AddIngredient(ItemID.SillyBalloonPinkWall)
                 .AddIngredient(ItemID.SillyBalloonPurpleWall)
-                .AddTile(TileID.SteampunkBoiler)
+                .AddTile(TileID.SillyBalloonMachine)
                 .Register();
         }
     }
@@ -327,7 +320,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.BambooBed)
                 .AddIngredient(ItemID.BambooBlock)
                 .AddIngredient(ItemID.BambooBlockWall)
-                .AddIngredient(ItemID.BambooBookcase)
                 .AddIngredient(ItemID.BambooCandelabra)
                 .AddIngredient(ItemID.BambooCandle)
                 .AddIngredient(ItemID.BambooChair)
@@ -339,7 +331,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.BambooFence)
                 .AddIngredient(ItemID.BambooLamp)
                 .AddIngredient(ItemID.BambooLantern)
-                .AddIngredient(ItemID.BambooPiano)
                 .AddIngredient(ItemID.BambooPlatform)
                 .AddIngredient(ItemID.BambooSink)
                 .AddIngredient(ItemID.BambooSofa)
@@ -372,6 +363,60 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+    
+    public class Bird : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.Bird)
+                .AddIngredient(ItemID.BirdBanner)
+                .AddIngredient(ItemID.BlueJay)
+                .AddIngredient(ItemID.BirdCage)
+                .AddIngredient(ItemID.BirdStatue)
+                .AddIngredient(ItemID.Cardinal)
+                .AddIngredient(ItemID.CardinalCage)
+                .AddIngredient(ItemID.BlueJayCage)
+                .AddIngredient(ItemID.RoastedBird)
+                .AddTile(TileID.LivingLoom)
+                .Register();
+        }
+    }
+    
+    public class BloodMoon : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.BloodZombieBanner)
+                .AddIngredient(ItemID.BloodZombieStatue)
+                .AddIngredient(ItemID.DripplerBanner)
+                .AddIngredient(ItemID.DripplerStatue)
+                .AddIngredient(ItemID.BloodMoonStarter)
+                .AddIngredient(ItemID.EyeballFlyingFishBanner)
+                .AddIngredient(ItemID.VampireFrogStaff)
+                .AddIngredient(ItemID.ChumBucket)
+                .AddIngredient(ItemID.BloodRainBow)
+                .AddIngredient(ItemID.BloodFishingRod)
+                .AddIngredient(ItemID.ZombieMermanBanner)
+                .AddTile(TileID.Anvils)
+                .Register();
+        }
+    }
 
     public class Bomb : ModItem
     {
@@ -393,8 +438,8 @@ namespace ItemTree.Items
                 .Register();
         }
     }
-
-    public class Book : ModItem
+    
+    public class Bunny : ModItem
     {
         public override void SetDefaults()
         {
@@ -406,8 +451,19 @@ namespace ItemTree.Items
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddIngredient(ItemID.Book)
-                .AddTile(TileID.Bookcases)
+                .AddIngredient(ItemID.Bunny)
+                .AddIngredient(ItemID.BunnyBanner)
+                .AddIngredient(ItemID.BunnyCage)
+                .AddIngredient(ItemID.ExplosiveBunny)
+                .AddIngredient(ItemID.BunnyStatue)
+                .AddIngredient(ItemID.BunnyStew)
+                .AddIngredient(ItemID.BunnyHood)
+                .AddIngredient(ItemID.CorruptBunnyBanner)
+                .AddIngredient(ItemID.CrimsonBunnyBanner)
+                .AddIngredient(ItemID.KiteBunny)
+                .AddIngredient(ItemID.KiteBunnyCorrupt)
+                .AddIngredient(ItemID.KiteBunnyCrimson)
+                .AddTile(TileID.LivingLoom)
                 .Register();
         }
     }
@@ -450,7 +506,6 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.BorealWoodBathtub)
                 .AddIngredient(ItemID.BorealWoodBed)
-                .AddIngredient(ItemID.BorealWoodBookcase)
                 .AddIngredient(ItemID.BorealWoodCandelabra)
                 .AddIngredient(ItemID.BorealWoodCandle)
                 .AddIngredient(ItemID.BorealWoodChair)
@@ -462,7 +517,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.BorealWoodFence)
                 .AddIngredient(ItemID.BorealWoodLamp)
                 .AddIngredient(ItemID.BorealWoodLantern)
-                .AddIngredient(ItemID.BorealWoodPiano)
                 .AddIngredient(ItemID.BorealWoodPlatform)
                 .AddIngredient(ItemID.BorealWoodSink)
                 .AddIngredient(ItemID.BorealWoodSofa)
@@ -513,7 +567,6 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.CactusBathtub)
                 .AddIngredient(ItemID.CactusBed)
-                .AddIngredient(ItemID.CactusBookcase)
                 .AddIngredient(ItemID.CactusCandelabra)
                 .AddIngredient(ItemID.CactusCandle)
                 .AddIngredient(ItemID.CactusChair)
@@ -524,7 +577,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.CactusDresser)
                 .AddIngredient(ItemID.CactusLamp)
                 .AddIngredient(ItemID.CactusLantern)
-                .AddIngredient(ItemID.CactusPiano)
                 .AddIngredient(ItemID.CactusPlatform)
                 .AddIngredient(ItemID.CactusSink)
                 .AddIngredient(ItemID.CactusSofa)
@@ -610,6 +662,14 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.CloudinaBottle)
                 .AddIngredient(ItemID.Cloud)
+                .AddIngredient(ItemID.Feather)
+                .AddIngredient(ItemID.HarpyBanner)
+                .AddIngredient(ItemID.RainCloud)
+                .AddIngredient(ItemID.CloudWall)
+                .AddIngredient(ItemID.SnowCloudBlock)
+                .AddIngredient(ItemID.FeatherfallPotion)
+                .AddIngredient(ItemID.GiantHarpyFeather)
+                .AddIngredient(ItemID.GravitationPotion)
                 .AddTile(TileID.SkyMill)
                 .Register();
         }
@@ -638,7 +698,29 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.ShadowOrb)
                 .AddIngredient(ItemID.WormFood)
                 .AddIngredient(ItemID.EbonstoneBlock)
-                .AddIngredient(ItemID.CorruptSeeds)
+                .AddTile(TileID.DemonAltar)
+                .Register();
+        }
+    }
+    
+    public class Crab : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.CrabBanner)
+                .AddIngredient(ItemID.CrabStatue)
+                .AddIngredient(ItemID.ShrimpPoBoy)
+                .AddIngredient(ItemID.CrawdadBanner)
+                .AddIngredient(ItemID.SeaSnailBanner)
+                .AddIngredient(ItemID.PurpleMucos)
                 .AddTile(TileID.DemonAltar)
                 .Register();
         }
@@ -665,6 +747,29 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.TendonBow)
                 .AddIngredient(ItemID.CrimtaneBrick)
                 .AddIngredient(ItemID.CrimtaneBrickWall)
+                .AddTile(TileID.DemonAltar)
+                .Register();
+        }
+    }
+    
+    public class Crimson : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.CrimstoneBlock)
+                .AddIngredient(ItemID.CrimstoneBrick)
+                .AddIngredient(ItemID.CrimstoneBrickWall)
+                .AddIngredient(ItemID.CrimeraBanner)
+                .AddIngredient(ItemID.FaceMonsterBanner)
+                .AddIngredient(ItemID.BloodCrawlerBanner)
                 .AddTile(TileID.DemonAltar)
                 .Register();
         }
@@ -775,7 +880,6 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.EbonwoodBathtub)
                 .AddIngredient(ItemID.EbonwoodBed)
-                .AddIngredient(ItemID.EbonwoodBookcase)
                 .AddIngredient(ItemID.EbonwoodCandelabra)
                 .AddIngredient(ItemID.EbonwoodCandle)
                 .AddIngredient(ItemID.EbonwoodChair)
@@ -787,7 +891,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.EbonwoodFence)
                 .AddIngredient(ItemID.EbonwoodLamp)
                 .AddIngredient(ItemID.EbonwoodLantern)
-                .AddIngredient(ItemID.EbonwoodPiano)
                 .AddIngredient(ItemID.EbonwoodPlatform)
                 .AddIngredient(ItemID.EbonwoodSofa)
                 .AddIngredient(ItemID.EbonwoodTable)
@@ -837,6 +940,7 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.WhoopieCushion)
                 .AddIngredient(ItemID.FartinaJar)
+                .AddIngredient(ItemID.WormBanner)
                 .AddTile(TileID.WorkBenches)
                 .Register();
         }
@@ -999,6 +1103,7 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+    
     public class DyeGradient : ModItem
     {
         public override void SetDefaults()
@@ -1063,7 +1168,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.BlueDynastyWall)
                 .AddIngredient(ItemID.DynastyBathtub)
                 .AddIngredient(ItemID.DynastyBed)
-                .AddIngredient(ItemID.DynastyBookcase)
                 .AddIngredient(ItemID.DynastyBowl)
                 .AddIngredient(ItemID.DynastyCandelabra)
                 .AddIngredient(ItemID.DynastyCandle)
@@ -1076,7 +1180,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.DynastyDresser)
                 .AddIngredient(ItemID.DynastyLamp)
                 .AddIngredient(ItemID.DynastyLantern)
-                .AddIngredient(ItemID.DynastyPiano)
                 .AddIngredient(ItemID.DynastyPlatform)
                 .AddIngredient(ItemID.DynastySink)
                 .AddIngredient(ItemID.DynastySofa)
@@ -1139,11 +1242,35 @@ namespace ItemTree.Items
         {
             CreateRecipe()
                 .AddIngredient(ItemID.EnchantedBoomerang)
-                .AddIngredient(ItemID.Arkhalis)
+                .AddIngredient(ItemID.Terragrim)
                 .AddIngredient(ItemID.EnchantedSword)
                 .AddIngredient(ItemID.HerosHat)
                 .AddIngredient(ItemID.HerosShirt)
                 .AddIngredient(ItemID.HerosPants)
+                .AddTile(TileID.Anvils)
+                .Register();
+        }
+    }
+    
+    public class Fishing : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+            Item.value = 9000; // 1g + 5g + 3g
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.SonarPotion)
+                .AddIngredient(ItemID.FishingPotion)
+                .AddIngredient(ItemID.CratePotion)
+                .AddIngredient(ItemID.AnglerHat)
+                .AddIngredient(ItemID.AnglerVest)
+                .AddIngredient(ItemID.AnglerPants)
                 .AddTile(TileID.Anvils)
                 .Register();
         }
@@ -1163,6 +1290,80 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.FlamingArrow)
                 .AddTile(TileID.Furnaces)
+                .Register();
+        }
+    }
+    
+    public class DeathweedFireblossom : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.Fireblossom)
+                .AddIngredient(ItemID.FireblossomSeeds)
+                .AddIngredient(ItemID.FireBlossomPlanterBox)
+                .AddIngredient(ItemID.PotSuspendedFireblossom)
+                .AddIngredient(ItemID.Deathweed)
+                .AddIngredient(ItemID.DeathweedSeeds)
+                .AddIngredient(ItemID.PotSuspendedDeathweedCorrupt)
+                .AddIngredient(ItemID.PotSuspendedDeathweedCrimson)
+                .AddTile(TileID.Bottles)
+                .Register();
+        }
+    }
+    
+    public class DaybloomMoonglow : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.Daybloom)
+                .AddIngredient(ItemID.DaybloomSeeds)
+                .AddIngredient(ItemID.PotSuspendedDaybloom)
+                .AddIngredient(ItemID.Moonglow)
+                .AddIngredient(ItemID.MoonglowSeeds)
+                .AddIngredient(ItemID.PotSuspendedMoonglow)
+                .AddTile(TileID.Bottles)
+                .Register();
+        }
+    }
+    
+    public class BlinkrootWaterleafShiverthorn : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.Blinkroot)
+                .AddIngredient(ItemID.BlinkrootSeeds)
+                .AddIngredient(ItemID.PotSuspendedBlinkroot)
+                .AddIngredient(ItemID.Waterleaf)
+                .AddIngredient(ItemID.WaterleafSeeds)
+                .AddIngredient(ItemID.PotSuspendedWaterleaf)
+                .AddIngredient(ItemID.Shiverthorn)
+                .AddIngredient(ItemID.ShiverthornSeeds)
+                .AddIngredient(ItemID.PotSuspendedShiverthorn)
+                .AddTile(TileID.Bottles)
                 .Register();
         }
     }
@@ -1188,6 +1389,8 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.Lemon)
                 .AddIngredient(ItemID.Lemonade)
                 .AddIngredient(ItemID.EucaluptusSap)
+                .AddIngredient(ItemID.FruitJuice)
+                .AddIngredient(ItemID.FruitSalad)
                 .AddTile(TileID.CookingPots)
                 .Register();
         }
@@ -1207,7 +1410,6 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.FrozenBathtub)
                 .AddIngredient(ItemID.FrozenBed)
-                .AddIngredient(ItemID.FrozenBookcase)
                 .AddIngredient(ItemID.FrozenCampfire)
                 .AddIngredient(ItemID.FrozenCandelabra)
                 .AddIngredient(ItemID.FrozenCandle)
@@ -1219,7 +1421,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.FrozenDresser)
                 .AddIngredient(ItemID.FrozenLamp)
                 .AddIngredient(ItemID.FrozenLantern)
-                .AddIngredient(ItemID.FrozenPiano)
                 .AddIngredient(ItemID.FrozenPlatform)
                 .AddIngredient(ItemID.FrozenSink)
                 .AddIngredient(ItemID.FrozenSofa)
@@ -1267,7 +1468,6 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.GlassBathtub)
                 .AddIngredient(ItemID.GlassBed)
-                .AddIngredient(ItemID.GlassBookcase)
                 .AddIngredient(ItemID.GlassCandelabra)
                 .AddIngredient(ItemID.GlassCandle)
                 .AddIngredient(ItemID.GlassChair)
@@ -1278,7 +1478,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.GlassDresser)
                 .AddIngredient(ItemID.GlassLamp)
                 .AddIngredient(ItemID.GlassLantern)
-                .AddIngredient(ItemID.GlassPiano)
                 .AddIngredient(ItemID.GlassPlatform)
                 .AddIngredient(ItemID.GlassSink)
                 .AddIngredient(ItemID.GlassSofa)
@@ -1339,7 +1538,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.MushroomBeam)
                 .AddIngredient(ItemID.MushroomBed)
                 .AddIngredient(ItemID.MushroomBench)
-                .AddIngredient(ItemID.MushroomBookcase)
                 .AddIngredient(ItemID.MushroomCandelabra)
                 .AddIngredient(ItemID.MushroomCandle)
                 .AddIngredient(ItemID.MushroomChair)
@@ -1350,7 +1548,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.MushroomDresser)
                 .AddIngredient(ItemID.MushroomLamp)
                 .AddIngredient(ItemID.MushroomLantern)
-                .AddIngredient(ItemID.MushroomPiano)
                 .AddIngredient(ItemID.MushroomPlatform)
                 .AddIngredient(ItemID.MushroomSink)
                 .AddIngredient(ItemID.MushroomSofa)
@@ -1467,6 +1664,7 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.GoldShortsword)
                 .AddIngredient(ItemID.GoldBow)
                 .AddIngredient(ItemID.GoldHelmet)
+                .AddIngredient(ItemID.GoldChest)
                 .AddIngredient(ItemID.GoldFrog)
                 .AddIngredient(ItemID.GoldGoldfish)
                 .AddIngredient(ItemID.GoldButterfly)
@@ -1514,6 +1712,32 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+    
+    public class Goldfish : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.Goldfish)
+                .AddIngredient(ItemID.GoldfishBanner)
+                .AddIngredient(ItemID.GoldfishTrophy)
+                .AddIngredient(ItemID.KiteGoldfish)
+                .AddIngredient(ItemID.FishStatue)
+                .AddIngredient(ItemID.BowlofSoup)
+                .AddIngredient(ItemID.FishBowl)
+                .AddIngredient(ItemID.CorruptGoldfishBanner)
+                .AddIngredient(ItemID.CrimsonGoldfishBanner)
+                .AddTile(TileID.LivingLoom)
+                .Register();
+        }
+    }
 
     public class GraniteHouse : ModItem
     {
@@ -1531,7 +1755,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.GraniteBed)
                 .AddIngredient(ItemID.GraniteBlock)
                 .AddIngredient(ItemID.GraniteBlockWall)
-                .AddIngredient(ItemID.GraniteBookcase)
                 .AddIngredient(ItemID.GraniteCandelabra)
                 .AddIngredient(ItemID.GraniteCandle)
                 .AddIngredient(ItemID.GraniteChair)
@@ -1543,7 +1766,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.GraniteDresser)
                 .AddIngredient(ItemID.GraniteLamp)
                 .AddIngredient(ItemID.GraniteLantern)
-                .AddIngredient(ItemID.GranitePiano)
                 .AddIngredient(ItemID.GranitePlatform)
                 .AddIngredient(ItemID.GraniteSink)
                 .AddIngredient(ItemID.GraniteSofa)
@@ -1572,7 +1794,32 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.MusketBall)
                 .AddIngredient(ItemID.Boomstick)
                 .AddIngredient(ItemID.RocketBoots)
-                .AddTile(TileID.Bottles)
+                .AddIngredient(ItemID.AmmoReservationPotion)
+                .AddIngredient(ItemID.AmmoBox)
+                .AddIngredient(ItemID.IllegalGunParts)
+                .AddTile(TileID.HeavyWorkBench)
+                .Register();
+        }
+    }
+    
+    public class Hermes : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.HermesBoots)
+                .AddIngredient(ItemID.SwiftnessPotion)
+                .AddIngredient(ItemID.Magiluminescence)
+                .AddIngredient(ItemID.Aglet)
+                .AddIngredient(ItemID.Magiluminescence)
+                .AddTile(TileID.TinkerersWorkbench)
                 .Register();
         }
     }
@@ -1615,11 +1862,9 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.HoneyTable)
                 .AddIngredient(ItemID.HoneyWorkBench)
                 .AddIngredient(ItemID.HoneyPlatform)
-                .AddIngredient(ItemID.HoneyPiano)
                 .AddIngredient(ItemID.HoneyBed)
                 .AddIngredient(ItemID.HoneyDresser)
                 .AddIngredient(ItemID.HoneyDoor)
-                .AddIngredient(ItemID.HoneyBookcase)
                 .AddIngredient(ItemID.HoneyLantern)
                 .AddIngredient(ItemID.HoneyChandelier)
                 .AddIngredient(ItemID.HoneyBathtub)
@@ -1690,6 +1935,8 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.PinkJellyfishBanner)
                 .AddIngredient(ItemID.JellyfishNecklace)
                 .AddIngredient(ItemID.JellyfishStatue)
+                .AddIngredient(ItemID.SquidBanner) // This is a jellyfish. yeah. for sure
+                .AddIngredient(ItemID.BlackInk)
                 .AddTile(TileID.Furnaces)
                 .Register();
         }
@@ -1824,6 +2071,7 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.PanicNecklace)
                 .AddIngredient(ItemID.RepairedLifeCrystal)
                 .AddIngredient(ItemID.RegenerationPotion)
+                .AddIngredient(ItemID.HeartreachPotion)
                 .AddTile(TileID.Bottles)
                 .Register();
         }
@@ -1843,7 +2091,6 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.LivingWoodBathtub)
                 .AddIngredient(ItemID.LivingWoodBed)
-                .AddIngredient(ItemID.LivingWoodBookcase)
                 .AddIngredient(ItemID.LivingWoodCandelabra)
                 .AddIngredient(ItemID.LivingWoodCandle)
                 .AddIngredient(ItemID.LivingWoodChair)
@@ -1854,7 +2101,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.LivingWoodDresser)
                 .AddIngredient(ItemID.LivingWoodLamp)
                 .AddIngredient(ItemID.LivingWoodLantern)
-                .AddIngredient(ItemID.LivingWoodPiano)
                 .AddIngredient(ItemID.LivingWoodPlatform)
                 .AddIngredient(ItemID.LivingWoodSofa)
                 .AddIngredient(ItemID.LivingWoodTable)
@@ -1864,6 +2110,30 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.LivingLeafWall)
                 .AddIngredient(ItemID.LivingWoodSink)
                 .AddTile(TileID.IceMachine)
+                .Register();
+        }
+    }
+    
+    public class Lucky : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.GardenGnome)
+                .AddIngredient(ItemID.GnomeBanner)
+                .AddIngredient(ItemID.LuckPotion)
+                .AddIngredient(ItemID.LuckPotionGreater)
+                .AddIngredient(ItemID.LuckPotionLesser)
+                .AddIngredient(ItemID.LadyBug)
+                .AddIngredient(ItemID.GalaxyPearl)
+                .AddTile(TileID.DemonAltar)
                 .Register();
         }
     }
@@ -1907,7 +2177,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.PalmWoodBathtub)
                 .AddIngredient(ItemID.PalmWoodBed)
                 .AddIngredient(ItemID.PalmWoodBench)
-                .AddIngredient(ItemID.PalmWoodBookcase)
                 .AddIngredient(ItemID.PalmWoodCandelabra)
                 .AddIngredient(ItemID.PalmWoodCandle)
                 .AddIngredient(ItemID.PalmWoodChair)
@@ -1919,7 +2188,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.PalmWoodFence)
                 .AddIngredient(ItemID.PalmWoodLamp)
                 .AddIngredient(ItemID.PalmWoodLantern)
-                .AddIngredient(ItemID.PalmWoodPiano)
                 .AddIngredient(ItemID.PalmWoodPlatform)
                 .AddIngredient(ItemID.PalmWoodSink)
                 .AddIngredient(ItemID.PalmWoodSofa)
@@ -2014,7 +2282,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.RichMahoganyBathtub)
                 .AddIngredient(ItemID.RichMahoganyBeam)
                 .AddIngredient(ItemID.RichMahoganyBed)
-                .AddIngredient(ItemID.RichMahoganyBookcase)
                 .AddIngredient(ItemID.RichMahoganyCandelabra)
                 .AddIngredient(ItemID.RichMahoganyCandle)
                 .AddIngredient(ItemID.RichMahoganyChair)
@@ -2026,7 +2293,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.RichMahoganyFence)
                 .AddIngredient(ItemID.RichMahoganyLamp)
                 .AddIngredient(ItemID.RichMahoganyLantern)
-                .AddIngredient(ItemID.RichMahoganyPiano)
                 .AddIngredient(ItemID.RichMahoganyPlatform)
                 .AddIngredient(ItemID.RichMahoganySink)
                 .AddIngredient(ItemID.RichMahoganySofa)
@@ -2081,7 +2347,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.MarbleBed)
                 .AddIngredient(ItemID.MarbleBlock)
                 .AddIngredient(ItemID.MarbleBlockWall)
-                .AddIngredient(ItemID.MarbleBookcase)
                 .AddIngredient(ItemID.MarbleCandelabra)
                 .AddIngredient(ItemID.MarbleCandle)
                 .AddIngredient(ItemID.MarbleChair)
@@ -2093,7 +2358,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.MarbleDresser)
                 .AddIngredient(ItemID.MarbleLamp)
                 .AddIngredient(ItemID.MarbleLantern)
-                .AddIngredient(ItemID.MarblePiano)
                 .AddIngredient(ItemID.MarblePlatform)
                 .AddIngredient(ItemID.MarbleSink)
                 .AddIngredient(ItemID.MarbleSofa)
@@ -2121,6 +2385,7 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.Hook)
                 .AddIngredient(ItemID.GrapplingHook)
                 .AddIngredient(ItemID.EmptyBucket)
+                .AddIngredient(ItemID.IronskinPotion)
                 .AddTile(TileID.Anvils)
                 .Register();
         }
@@ -2168,7 +2433,6 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.MeteoriteBathtub)
                 .AddIngredient(ItemID.MeteoriteBed)
-                .AddIngredient(ItemID.MeteoriteBookcase)
                 .AddIngredient(ItemID.MeteoriteBrick)
                 .AddIngredient(ItemID.MeteoriteBrickWall)
                 .AddIngredient(ItemID.MeteoriteCandelabra)
@@ -2181,7 +2445,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.MeteoriteDresser)
                 .AddIngredient(ItemID.MeteoriteLamp)
                 .AddIngredient(ItemID.MeteoriteLantern)
-                .AddIngredient(ItemID.MeteoritePiano)
                 .AddIngredient(ItemID.MeteoritePlatform)
                 .AddIngredient(ItemID.MeteoriteSink)
                 .AddIngredient(ItemID.MeteoriteSofa)
@@ -2208,6 +2471,10 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.MiningHelmet)
                 .AddIngredient(ItemID.MiningShirt)
                 .AddIngredient(ItemID.MiningPants)
+                .AddIngredient(ItemID.MiningPotion)
+                .AddIngredient(ItemID.UndeadMinerBanner)
+                .AddIngredient(ItemID.SpelunkerPotion)
+                .AddIngredient(ItemID.SpelunkerGlowstick)
                 .AddTile(TileID.WorkBenches)
                 .Register();
         }
@@ -2250,6 +2517,25 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+    
+    public class Nymph : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.MetalDetector)
+                .AddIngredient(ItemID.NypmhBanner)
+                .AddTile(TileID.TinkerersWorkbench)
+                .Register();
+        }
+    }
 
     public class ReefHouse : ModItem
     {
@@ -2265,7 +2551,6 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.CoralBathtub)
                 .AddIngredient(ItemID.CoralBed)
-                .AddIngredient(ItemID.CoralBookcase)
                 .AddIngredient(ItemID.CoralCandelabra)
                 .AddIngredient(ItemID.CoralCandle)
                 .AddIngredient(ItemID.CoralChair)
@@ -2276,7 +2561,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.CoralDresser)
                 .AddIngredient(ItemID.CoralLamp)
                 .AddIngredient(ItemID.CoralLantern)
-                .AddIngredient(ItemID.CoralPiano)
                 .AddIngredient(ItemID.CoralPlatform)
                 .AddIngredient(ItemID.CoralSink)
                 .AddIngredient(ItemID.CoralSofa)
@@ -2307,6 +2591,47 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.ObsidianSkull)
                 .AddIngredient(ItemID.ObsidianSkinPotion)
                 .AddIngredient(ItemID.ObsidianRose)
+                .AddTile(TileID.Anvils)
+                .Register();
+        }
+    }
+    
+    public class Salamander : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.SalamanderBanner)
+                .AddIngredient(ItemID.GiantShellyBanner)
+                .AddIngredient(ItemID.Rally)
+                .AddIngredient(ItemID.PotatoChips)
+                .AddTile(TileID.TinkerersWorkbench)
+                .Register();
+        }
+    }
+    
+    public class Piranha : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.PiranhaBanner)
+                .AddIngredient(ItemID.PiranhaStatue)
+                .AddIngredient(ItemID.RobotHat)
                 .AddTile(TileID.Anvils)
                 .Register();
         }
@@ -2376,6 +2701,29 @@ namespace ItemTree.Items
                 .Register();
         }
     }
+    
+    public class SandEvil : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.EbonsandBlock)
+                .AddIngredient(ItemID.CrimsandBlock)
+                .AddIngredient(ItemID.UnholyWater)
+                .AddIngredient(ItemID.BloodWater)
+                .AddIngredient(ItemID.RedIceBlock)
+                .AddIngredient(ItemID.PurpleIceBlock)
+                .AddTile(TileID.WorkBenches)
+                .Register();
+        }
+    }
 
     public class SandstoneHouse : ModItem
     {
@@ -2398,11 +2746,9 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.SandstoneTable)
                 .AddIngredient(ItemID.SandstoneWorkbench)
                 .AddIngredient(ItemID.SandstonePlatform)
-                .AddIngredient(ItemID.SandstonePiano)
                 .AddIngredient(ItemID.SandstoneBed)
                 .AddIngredient(ItemID.SandstoneDresser)
                 .AddIngredient(ItemID.SandstoneDoor)
-                .AddIngredient(ItemID.SandstoneBookcase)
                 .AddIngredient(ItemID.SandstoneLantern)
                 .AddIngredient(ItemID.SandstoneChandelier)
                 .AddIngredient(ItemID.SandstoneBathtub)
@@ -2477,7 +2823,6 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.ShadewoodBathtub)
                 .AddIngredient(ItemID.ShadewoodBed)
-                .AddIngredient(ItemID.ShadewoodBookcase)
                 .AddIngredient(ItemID.ShadewoodCandelabra)
                 .AddIngredient(ItemID.ShadewoodCandle)
                 .AddIngredient(ItemID.ShadewoodChair)
@@ -2489,7 +2834,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.ShadewoodFence)
                 .AddIngredient(ItemID.ShadewoodLamp)
                 .AddIngredient(ItemID.ShadewoodLantern)
-                .AddIngredient(ItemID.ShadewoodPiano)
                 .AddIngredient(ItemID.ShadewoodPlatform)
                 .AddIngredient(ItemID.ShadewoodSink)
                 .AddIngredient(ItemID.ShadewoodSofa)
@@ -2542,7 +2886,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.DiscWall)
                 .AddIngredient(ItemID.SkywareBathtub)
                 .AddIngredient(ItemID.SkywareBed)
-                .AddIngredient(ItemID.SkywareBookcase)
                 .AddIngredient(ItemID.SkywareCandelabra)
                 .AddIngredient(ItemID.SkywareCandle)
                 .AddIngredient(ItemID.SkywareChair)
@@ -2554,7 +2897,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.SkywareDresser)
                 .AddIngredient(ItemID.SkywareLamp)
                 .AddIngredient(ItemID.SkywareLantern)
-                .AddIngredient(ItemID.SkywarePiano)
                 .AddIngredient(ItemID.SkywarePlatform)
                 .AddIngredient(ItemID.SkywareSink)
                 .AddIngredient(ItemID.SkywareSofa)
@@ -2590,6 +2932,7 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.FrostDaggerfish)
                 .AddIngredient(ItemID.FrostMinnow)
                 .AddIngredient(ItemID.AtlanticCod)
+                .AddIngredient(ItemID.WarmthPotion)
                 .AddTile(TileID.CookingPots)
                 .Register();
         }
@@ -2612,6 +2955,7 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.WebRope)
                 .AddIngredient(ItemID.WebRopeCoil)
                 .AddIngredient(ItemID.SpiderBanner)
+                .AddIngredient(ItemID.TrapsightPotion)
                 .AddTile(TileID.Anvils)
                 .Register();
         }
@@ -2673,6 +3017,30 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.PlatinumBroadsword)
                 .AddIngredient(ItemID.PlatinumShortsword)
                 .AddTile(TileID.Anvils)
+                .Register();
+        }
+    }
+    
+    public class Sunflower : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.Sunflower)
+                .AddIngredient(ItemID.SunflowerMinecart)
+                .AddIngredient(ItemID.SunflowerStatue)
+                .AddIngredient(ItemID.Sunflowers)
+                .AddIngredient(ItemID.FlowerBoyHat)
+                .AddIngredient(ItemID.FlowerBoyShirt)
+                .AddIngredient(ItemID.FlowerBoyPants)
+                .AddTile(TileID.LivingLoom)
                 .Register();
         }
     }
@@ -2864,6 +3232,9 @@ namespace ItemTree.Items
             CreateRecipe()
                 .AddIngredient(ItemID.Torch)
                 .AddIngredient(ItemID.Campfire)
+                .AddIngredient(ItemID.TikiTorch)
+                .AddIngredient(ItemID.ShinePotion)
+                .AddIngredient(ItemID.NightOwlPotion)
                 .AddTile(TileID.Campfire)
                 .Register();
         }
@@ -2974,7 +3345,32 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.BreathingReed)
                 .AddIngredient(ItemID.Flipper)
                 .AddIngredient(ItemID.BottledWater)
+                .AddIngredient(ItemID.GillsPotion)
+                .AddIngredient(ItemID.WaterWalkingBoots)
+                .AddIngredient(ItemID.WaterWalkingPotion)
+                .AddIngredient(ItemID.FlipperPotion)
                 .AddTile(TileID.Sinks)
+                .Register();
+        }
+    }
+    
+    public class Wizard : ModItem
+    {
+        public override void SetDefaults()
+        {
+            Item.width = 20;
+            Item.height = 20;
+            Item.rare = ItemRarityID.Blue;
+        }
+
+        public override void AddRecipes()
+        {
+            CreateRecipe()
+                .AddIngredient(ItemID.WizardHat)
+                .AddIngredient(ItemID.MagicHat)
+                .AddIngredient(ItemID.GypsyRobe)
+                .AddIngredient(ItemID.TimBanner)
+                .AddTile(TileID.Hellforge)
                 .Register();
         }
     }
@@ -2998,8 +3394,8 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.WoodenBoomerang)
                 .AddIngredient(ItemID.WoodHelmet)
                 .AddIngredient(ItemID.WoodBreastplate)
-                .AddIngredient(ItemID.WoodenArrow)
                 .AddIngredient(ItemID.WoodGreaves)
+                .AddIngredient(ItemID.WoodenArrow)
                 .AddIngredient(ItemID.Acorn)
                 .AddTile(TileID.WorkBenches)
                 .Register();
@@ -3025,7 +3421,6 @@ namespace ItemTree.Items
                 .AddIngredient(ItemID.WoodenChair)
                 .AddIngredient(ItemID.WoodenDoor)
                 .AddIngredient(ItemID.WorkBench)
-                .AddIngredient(ItemID.Bookcase)
                 .AddIngredient(ItemID.Bench)
                 .AddIngredient(ItemID.Barrel)
                 .AddIngredient(ItemID.TikiTorch)
